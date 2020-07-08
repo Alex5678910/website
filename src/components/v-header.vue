@@ -29,9 +29,9 @@
                     <a @click="openSlide">web-разработка</a>
                 </router-link>
 
-                <router-link tag="a" @click="openSlide" :to="'/'"><a>разработка мобильных приложений</a></router-link>
-                <router-link tag="a" @click="openSlide" :to="'/'"><a>разработка CRM-системы</a></router-link>
-                <router-link tag="a" @click="openSlide" :to="'/'"><a>разработка ботов</a></router-link>
+                <router-link tag="a" :to="'/'"><a @click="openSlide">разработка мобильных приложений</a></router-link>
+                <router-link tag="a" :to="'/'"><a @click="openSlide">разработка CRM-системы</a></router-link>
+                <router-link tag="a" :to="'/'"><a @click="openSlide">разработка ботов</a></router-link>
 
             </div>
         </div>
