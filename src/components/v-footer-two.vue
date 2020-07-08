@@ -5,7 +5,7 @@
             <img src="../assets/img/mail.png" alt="">
         </div>
         <div class="contact">
-            <a href="tel: +7(495)365-40-40">+7 (495) 365-40-40</a>
+            <a href="tel: 7(927)-770-77-75">7(927)-770-77-75</a>
             <a href="#">webkiwi.org@gmail.com</a>
         </div>
     </div>
