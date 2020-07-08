@@ -95,6 +95,8 @@
             position: absolute;
             top: 20px;
             left: 197px;
+            font-size: 40px;
+            z-index: 12;
         }
         p {
             font-size: 23px;
@@ -107,11 +109,24 @@
             top: 255px;
             right: 137px;
             z-index: 1;
+            width: 28%;
         }
         .cls-one {
             position: absolute;
-            top: 345px;
-            right: 684px;
+            top: 289px;
+            right: 169px;
+            height: 293px;
+        }
+        p{
+            font-size: 18px;
+            position: absolute;
+            top: 250px;
+            left: 145px;
+        }
+        .main{
+            position: relative;
+            height: 725px;
+            color: #E1E1E1;
         }
     }
     /*====================================================max-width: 1366px========================================*/
@@ -119,13 +134,13 @@
     @media (max-width: 1024px) {
         h1 {
             position: absolute;
-            top: -38px;
-            left: 142px;
+            top: 53px;
+            left: 259px;
         }
-        p {
-            font-size: 23px;
+        p[data-v-49c8d3d6] {
+            font-size: 18px;
             position: absolute;
-            top: 602px;
+            top: 290px;
             left: 119px;
         }
         img{
@@ -134,36 +149,49 @@
             right: 91px;
             z-index: 1;
         }
-        .cls-one {
+        .cls-one[data-v-49c8d3d6] {
             position: absolute;
-            top: 603px;
-            right: 79px;
+            top: 289px;
+            right: 408px;
+        }
+        .main[data-v-49c8d3d6] {
+            position: relative;
+            height: 622px;
+            color: #E1E1E1;
         }
     }
     /*====================================================max-width: 1024========================================*/
     /*====================================================max-width: 768========================================*/
     @media (max-width: 768px) {
-        h1 {
+        h1[data-v-49c8d3d6] {
             position: absolute;
-            top: -38px;
+            top: 25px;
             left: 142px;
+            font-size: 25px;
+            z-index: 12;
         }
-        p {
-            font-size: 23px;
+        p[data-v-49c8d3d6][data-v-49c8d3d6] {
+            font-size: 15px;
             position: absolute;
-            top: 602px;
+            top: 128px;
             left: 119px;
         }
-        img{
+        img[data-v-49c8d3d6] {
             position: absolute;
-            top: 211px;
-            right: 91px;
+            top: 94px;
+            right: 48px;
             z-index: 1;
         }
-        .cls-one {
+        .cls-one[data-v-49c8d3d6][data-v-49c8d3d6] {
             position: absolute;
-            top: 603px;
-            right: 79px;
+            top: 111px;
+            right: 282px;
+            width: 24rem;
+        }
+        .main[data-v-49c8d3d6][data-v-49c8d3d6] {
+            position: relative;
+            height: 446px;
+            color: #E1E1E1;
         }
     }
     /*====================================================max-width: 768========================================*/

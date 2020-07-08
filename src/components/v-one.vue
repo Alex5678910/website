@@ -58,13 +58,14 @@
     h1{
         font-size: 450%;
         color: #ffbe6a;
-        font-weight: normal;
         text-shadow:
                 2px  2px 0 #000,
                 -1px -1px 0 #000,
                 1px -1px 0 #000,
                 -1px  1px 0 #000,
                 1px  1px 0 #000;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
     }
 
     small{
@@ -82,7 +83,7 @@
     .web{
         position: absolute;
         top: 410px;
-        left: 80px;
+        left: 145px;
     }
     img:nth-child(1){
         height: 668px;
@@ -109,12 +110,43 @@
     }
     /*====================================================max-width: 1366px========================================*/
     @media (max-width: 1366px) {
+        img[data-v-7a9835a2]:nth-child(1) {
+            position: absolute;
+            top: 145px;
+            right: 357px;
+            z-index: 5;
+        }
+        img[data-v-7a9835a2]:nth-child(2) {
+            position: absolute;
+            right: 105px;
+            top: 91px;
+            z-index: 10;
+            width: 466px;
+            height: 764px;
+        }
+
         .web{
             top: 0;
             left: 12px;
         }
-        small{
-           display: none;
+        small[data-v-7a9835a2] {
+            font-size: 136%;
+            font-style: italic;
+            font-family: Montserrat, sans-serif;
+            color: black;
+        }
+
+        h1{
+            font-size: 350%;
+            color: #ffbe6a;
+            text-shadow:
+                    2px  2px 0 #000,
+                    -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px  1px 0 #000,
+                    1px  1px 0 #000;
+            font-family: Montserrat, sans-serif;
+            font-weight: bold;
         }
     }
     /*====================================================max-width: 1366px========================================*/

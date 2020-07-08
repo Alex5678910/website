@@ -15,7 +15,7 @@
         <div>
             <div class="flex-two">
                 <div>
-                    <a href="tel: 7(927)-770-77-75" class="a animate__animated animate__pulse">+7(927)-770-77-75</a>
+                    <a href="tel: 7(927)-770-77-75" class="a animate__animated animate__pulse">т. 7(927)-770-77-75</a>
                 </div>
 
                 <div>
@@ -25,13 +25,13 @@
 
             <div class="flex-three">
 
-                <router-link tag="a" :to="'/'">
-                    <a @click="openSlide">web-разработка</a>
+                <router-link tag="a" :to="'/good'">
+                    <a>web-разработка</a>
                 </router-link>
 
-                <router-link tag="a" :to="'/'"><a @click="openSlide">разработка мобильных приложений</a></router-link>
-                <router-link tag="a" :to="'/'"><a @click="openSlide">разработка CRM-системы</a></router-link>
-                <router-link tag="a" :to="'/'"><a @click="openSlide">разработка ботов</a></router-link>
+                <router-link tag="a" :to="'/mobile'"><a>разработка мобильных приложений</a></router-link>
+                <router-link tag="a" :to="'/crm'"><a>разработка CRM-системы</a></router-link>
+                <router-link tag="a" :to="'/'"><a>разработка ботов</a></router-link>
 
             </div>
         </div>

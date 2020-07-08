@@ -94,14 +94,33 @@
         h1{
             top: 33px;
             right: 246px;
+            color: black;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 46px;
+            font-weight: bold;
+            text-align: left;
+            position: absolute;
         }
         img{
             top: 168px;
-            left: 401px;
+            left: 98px;
+            width: 26%;
+
         }
         p{
-            top: 468px;
-            right: 320px;
+            top: 147px;
+            right: 262px;
+            color: black;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 18px;
+            font-weight: normal;
+            text-align: left;
+            position: absolute;
+        }
+        .main{
+            position: relative;
+            height: 668px;
+            background-color: #FBEED3;
         }
     }
     /*====================================================max-width: 1366px========================================*/
@@ -116,26 +135,38 @@
             top: 175px;
             left: 97px;
         }
-        p{
-            top: 468px;
-            right: 26px;
+        p[data-v-67da7827] {
+            top: 181px;
+            right: 90px;
+        }
+        .main[data-v-7954d1aa] {
+            margin-top: 82px;
+            margin-bottom: 60px;
         }
     }
     /*====================================================max-width: 1024========================================*/
     /*====================================================max-width: 768========================================*/
     @media (max-width: 768px) {
-        h1{
-            top: 54px;
-            right: 151px;
-            font-size: 40px;
+        h1[data-v-67da7827] {
+            top: 7px;
+            right: 202px;
+            font-size: 30px;
         }
         img{
-            top: 175px;
-            left: 97px;
+          display: none;
         }
-        p{
-            top: 468px;
-            right: 26px;
+        p[data-v-67da7827][data-v-67da7827] {
+            top: 75px;
+            right: 85px;
+        }
+        .main[data-v-67da7827] {
+            position: relative;
+            height: 471px;
+            background-color: #FBEED3;
+        }
+        .main[data-v-7954d1aa] {
+            margin-top: 7px;
+            margin-bottom: 7px;
         }
     }
     /*====================================================max-width: 768========================================*/
