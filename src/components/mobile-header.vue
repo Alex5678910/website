@@ -13,7 +13,7 @@
             </router-link>
             <div class="right">
                 <div>
-                    <a href="tel: +7(495)365-40-40">+7 (495) 365-40-40</a>
+                    <a href="tel: 7(927)-770-77-75">7(927)-770-77-75</a>
                 </div>
                 <div class="burger" @click="burger">
                     <svg id="Component_54_2" data-name="Component 54 – 2" width="28" height="15" viewBox="0 0 28 15">

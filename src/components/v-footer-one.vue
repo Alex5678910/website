@@ -259,12 +259,13 @@
             padding-right: 0;
         }
 
-        h1 {
+        .footer h1 {
             font-size: 18px;
             font-family: 'Montserrat Alternates', sans-serif;
+            margin-left: 0;
         }
 
-        h1, small, img {
+        .footer small{
             margin-left: 0;
         }
 
@@ -279,7 +280,7 @@
 
         .input {
             margin-left: 0;
-            width: 87%;
+            width: 64%;
             margin-top: 1rem;
             background: transparent;
             color: white;

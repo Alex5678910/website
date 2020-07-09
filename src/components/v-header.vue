@@ -19,7 +19,7 @@
                 </div>
 
                 <div>
-                    <button @click="openSlide" class="animate__animated animate__pulse">Нужна консультация?</button>
+                    <button @click="openSlide">Нужна консультация?</button>
                 </div>
             </div>
 
@@ -133,6 +133,11 @@
         background: linear-gradient(to top, #FFAA00, #F2D72B);
         font-family: 'Montserrat', sans-serif;
         cursor: pointer;
+        transition: all .5s;
+    }
+    button:hover {
+        background: linear-gradient(to top, #ffdd00, #fcdc15);
+        transition: all .5s;
     }
 
     /*==============================================================media=============================*/

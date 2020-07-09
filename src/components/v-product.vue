@@ -1,5 +1,7 @@
 <template>
     <div class="product">
+        <mobile-header></mobile-header>
+        <mobile-web-one></mobile-web-one>
         <v-one></v-one>
         <v-two></v-two>
         <v-three></v-three>
@@ -18,10 +20,12 @@
     import VThree from "./v-three";
     import VSmallSquare from "./v-small-square";
     import VFour from "./v-four";
+    import MobileHeader from "./mobile-header";
+    import MobileWebOne from "./mobile-web-one";
 
     export default {
         name: "v-product",
-        components: {VFour, VSmallSquare, VThree, VTwo, VFooterTwo, VFooterOne, VOne},
+        components: {MobileWebOne, MobileHeader, VFour, VSmallSquare, VThree, VTwo, VFooterTwo, VFooterOne, VOne},
     }
 </script>
 

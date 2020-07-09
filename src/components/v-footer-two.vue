@@ -44,6 +44,7 @@
         display: flex;
         align-items: center;
         padding-left: 15%;
+        height: 5%;
     }
 
     a {
@@ -79,6 +80,7 @@
             display: flex;
             align-items: center;
             padding-left: 0;
+            height: 8rem;
         }
         a{
             font-size: 17px;

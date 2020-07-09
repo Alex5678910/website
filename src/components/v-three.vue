@@ -76,12 +76,12 @@
     h1 {
         color: black;
         font-family: 'Montserrat Alternates', sans-serif;
-        font-size: 60px;
+        font-size: 376%;
         font-weight: bold;
         text-align: left;
         position: absolute;
-        top: 162px;
-        right: 246px;
+        top: 20%;
+        right: 13%;
     }
 
     .main {
@@ -92,83 +92,145 @@
     /*====================================================max-width: 1366px========================================*/
     @media (max-width: 1366px) {
         h1{
-            top: 33px;
-            right: 246px;
-            color: black;
-            font-family: 'Montserrat Alternates', sans-serif;
-            font-size: 46px;
-            font-weight: bold;
-            text-align: left;
             position: absolute;
+            top: 10%;
+            left: 59%;
+            font-size: 222%;
+            z-index: 12;
+            white-space: nowrap;
         }
-        img{
-            top: 168px;
-            left: 98px;
-            width: 26%;
 
+        img {
+            top: 42%;
+            left: 9%;
+            width: 30%;
+            z-index: 200;
         }
         p{
-            top: 147px;
-            right: 262px;
-            color: black;
-            font-family: 'Montserrat Alternates', sans-serif;
-            font-size: 18px;
-            font-weight: normal;
-            text-align: left;
+            font-size: 88%;
             position: absolute;
+            top: 25%;
+            left: 59%;
+            width: 30%;
+            text-align: left;
         }
         .main{
             position: relative;
             height: 668px;
             background-color: #FBEED3;
         }
+        .two-svg {
+            position: absolute;
+            top: -6.2%;
+            right: 56.4%;
+            width: 45%;
+        }
+        .one-svg {
+            position: absolute;
+            top: -5.1%;
+            right: 38.4%;
+            width: 73%;
+            height: 70%;
+            z-index: 100;
+        }
     }
     /*====================================================max-width: 1366px========================================*/
-    /*====================================================max-width: 1024========================================*/
+    /*====================================================max-width: 1024px========================================*/
     @media (max-width: 1024px) {
-        h1{
-            top: 54px;
-            right: 151px;
-            font-size: 40px;
+        h1[data-v-67da7827] {
+            position: absolute;
+            top: 10%;
+            left: 54%;
+            font-size: 222%;
+            z-index: 12;
+            white-space: nowrap;
         }
-        img{
-            top: 175px;
-            left: 97px;
+
+        img {
+            top: 53%;
+            left: 9%;
+            width: 48%;
+            z-index: 200;
         }
-        p[data-v-67da7827] {
-            top: 181px;
-            right: 90px;
+        p{
+            font-size: 88%;
+            position: absolute;
+            top: 25%;
+            left: 54%;
+            width: 41%;
+            text-align: left;
         }
-        .main[data-v-7954d1aa] {
-            margin-top: 82px;
-            margin-bottom: 60px;
+
+        .main{
+            position: relative;
+            height: 668px;
+            background-color: #FBEED3;
+        }
+        .two-svg[data-v-67da7827] {
+            position: absolute;
+            top: -12.9%;
+            right: 58%;
+            width: 45%;
+        }
+        .one-svg {
+            position: absolute;
+            top: -1.42%;
+            right: 54.6%;
+            width: 48%;
+            height: 54%;
+            z-index: 5;
         }
     }
     /*====================================================max-width: 1024========================================*/
-    /*====================================================max-width: 768========================================*/
+    /*============================================================768===================================*/
     @media (max-width: 768px) {
-        h1[data-v-67da7827] {
-            top: 7px;
-            right: 202px;
-            font-size: 30px;
-        }
-        img{
-          display: none;
-        }
-        p[data-v-67da7827][data-v-67da7827] {
-            top: 75px;
-            right: 85px;
+        .one-svg{
+            position: absolute;
+            top: 1.7%;
+            right: 52.8%;
+            width: 61%;
+            height: 54%;
+            z-index: 5;
         }
         .main[data-v-67da7827] {
             position: relative;
-            height: 471px;
+            height: 530px;
             background-color: #FBEED3;
         }
-        .main[data-v-7954d1aa] {
-            margin-top: 7px;
-            margin-bottom: 7px;
+        .two-svg[data-v-67da7827][data-v-67da7827] {
+            position: absolute;
+            top: -20.3%;
+            right: 63%;
+            width: 50%;
+        }
+        h1[data-v-67da7827][data-v-67da7827][data-v-67da7827] {
+            position: absolute;
+            top: 10%;
+            left: 49%;
+            font-size: 167%;
+            z-index: 12;
+            white-space: nowrap;
+        }
+        p{
+            font-size: 79%;
+            position: absolute;
+            top: 23%;
+            left: 49%;
+            width: 51%;
+            text-align: left;
+        }
+        img[data-v-67da7827] {
+            top: 57%;
+            left: 9%;
+            width: 38%;
+            z-index: 200;
         }
     }
-    /*====================================================max-width: 768========================================*/
+    /*============================================================768===================================*/
+    @media (max-width: 414px) {
+        .main {
+            display: none;
+        }
+    }
 
 </style>
