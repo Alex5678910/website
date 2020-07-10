@@ -6,7 +6,7 @@
                 вашего бизнеса</h1>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
-            <img src="../assets/mobail/list.png" alt="">
+            <img src="../assets/mobail/list.png" alt="" class="list">
         </div>
         <div class="text">
             <h3>Автоматизируйте свой рабочий процесс вместе с нами</h3><br>
@@ -21,8 +21,10 @@
 </script>
 
 <style scoped>
+
     img{
-        margin-left: 55%;
+        margin-left: 41%;
+        position: fixed;
     }
     .text{
         max-width: 414px;

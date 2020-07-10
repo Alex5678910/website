@@ -113,29 +113,28 @@
     }
 
     h1 {
-        padding: 45% 0;
+        padding: 39% 0;
         font-family: 'Montserrat Alternates', sans-serif;
-        font-size: 47px;
+        font-size: 287%;
         font-weight: 700;
         color: #545454;
-
     }
 
     .square {
-        width: 610px;
-        height: 610px;
+        width: 32%;
+        height: auto;
         background-color: #f9e0cb;
-        margin: 0 5px 10px 5px;
+        margin: 0 .2% .5% .2%;
     }
 
     .sq {
-        width: 610px;
-        height: 610px;
+        width: 32%;
+        height: 37rem;
         background-color: #E1E1E1;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 5px 10px 5px;
+        margin: 0 .2% .5% .2%;
     }
     /*====================================================max-width: 1366========================================*/
     @media (max-width: 1366px) {
@@ -172,7 +171,7 @@
             font-size: 22px;
             font-weight: 700;
             color: #545454;
-            margin-bottom: 0rem;
+            margin-bottom: 0;
         }
         .sq img{
             width: 108px;
@@ -189,15 +188,49 @@
             font-family: 'Montserrat', sans-serif;
             font-weight: normal;
         }
-        .main[data-v-7954d1aa] {
-            margin-top: 7px;
-            margin-bottom: 7px;
+        .main{
+            margin-top: 10%;
+            margin-bottom: 10%;
         }
     }
     /*====================================================max-width: 768========================================*/
+    /*====================================================max-width: 414========================================*/
     @media (max-width: 414px) {
         .main {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        p{
             display: none;
         }
+        h1{
+            font-size: 21px;
+        }
+        h2{
+            font-size: 10px;
+        }
+        .sq img {
+            width: 66px;
+            height: 66px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .square{
+            width: 136px;
+            height: 136px;
+            background-color: #f9e0cb;
+            margin: 0 5px 10px 5px;
+        }
+        .sq {
+            width: 136px;
+            height: 136px;
+            background-color: #E1E1E1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 5px 10px 5px;
+            justify-content: center;
+        }
     }
+    /*====================================================max-width: 414========================================*/
 </style>

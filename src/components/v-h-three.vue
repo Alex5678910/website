@@ -86,30 +86,36 @@
 </script>
 
 <style scoped>
-    .svg-two{
+
+    .svg-two {
         position: absolute;
-        top: 25%;
-        left: 92%;
+        top: 11%;
+        left: 91%;
     }
+
     .main{
         position: relative;
     }
+
     .svg-one{
         margin-left: 70px;
         z-index: 5;
     }
+
     .b-two{
         display: flex;
     }
+
     .items{
         display: flex;
     }
+
     h1{
         color: #febdf5;
         font-family: 'Montserrat', sans-serif;
         font-size: 60px;
         margin-left: 339px;
-        margin-top: 292px;
+        margin-top: 161px;
         z-index: 555;
     }
     .text ul li{

@@ -3,6 +3,7 @@ import vMainWrapper from './components/v-main-wrapper'
 import vProduct from './components/v-product'
 import vMobile from './components/v-mobile'
 import vCrm from './components/v-crm'
+import vBots from './components/v-bots'
 
 export default new VueRouter({
     routes: [
@@ -21,6 +22,10 @@ export default new VueRouter({
         {
             path: '/crm',
             component: vCrm
+        },
+        {
+            path: '/bots',
+            component: vBots
         },
     ],
     mode: 'history'

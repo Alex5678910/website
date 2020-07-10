@@ -31,7 +31,7 @@
 
                 <router-link tag="a" :to="'/mobile'"><a>разработка мобильных приложений</a></router-link>
                 <router-link tag="a" :to="'/crm'"><a>разработка CRM-системы</a></router-link>
-                <router-link tag="a" :to="'/'"><a>разработка ботов</a></router-link>
+                <router-link tag="a" :to="'/bots'"><a>разработка ботов</a></router-link>
 
             </div>
         </div>
@@ -138,6 +138,9 @@
     button:hover {
         background: linear-gradient(to top, #ffdd00, #fcdc15);
         transition: all .5s;
+    }
+    button:focus {
+       outline: none;
     }
 
     /*==============================================================media=============================*/

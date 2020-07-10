@@ -267,47 +267,47 @@
             padding-top: 3rem;
         }
 
-        .grid__item[data-v-40af7bad]:nth-child(17) {
+        .grid__item:nth-child(17) {
             grid-area: q;
             padding-top: 6rem;
         }
 
-        .grid__item[data-v-40af7bad]:nth-child(15) {
+        .grid__item:nth-child(15) {
             grid-area: o;
             padding-top: 6rem;
         }
 
-        .grid__item[data-v-40af7bad]:nth-child(13) {
+        .grid__item:nth-child(13) {
             grid-area: m;
             padding-top: 6rem;
         }
 
-        .grid__item[data-v-40af7bad]:nth-child(11) {
+        .grid__item:nth-child(11) {
             grid-area: k;
             padding-top: 6rem;
         }
 
-        .grid__item[data-v-40af7bad]:nth-child(16) {
+        .grid__item:nth-child(16) {
             grid-area: p;
             padding-top: 8.5rem;
         }
 
-        .grid__item[data-v-40af7bad]:nth-child(14) {
+        .grid__item:nth-child(14) {
             grid-area: z;
             padding-top: 8.5rem;
         }
 
-        .grid__item[data-v-40af7bad]:nth-child(12) {
+        .grid__item:nth-child(12) {
             grid-area: l;
             padding-top: 8.5rem;
         }
 
-        .grid__item[data-v-40af7bad][data-v-40af7bad]:nth-child(10) {
+        .grid__item:nth-child(10){
             grid-area: j;
             padding-top: 6.5rem;
         }
 
-        .grid[data-v-40af7bad] {
+        .grid {
             display: grid;
             justify-content: space-between;
             grid-column-gap: 0;
@@ -331,12 +331,12 @@
             transform: scale(.7);
         }
 
-        .container[data-v-40af7bad][data-v-40af7bad] {
+        .container {
             background-color: #E1E1E1;
             height: 591px;
         }
 
-        h1[data-v-40af7bad] {
+        h1 {
             color: black;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -345,7 +345,7 @@
             padding-top: 2rem;
         }
 
-        .grid[data-v-40af7bad] {
+        .grid {
             display: grid;
             justify-content: space-between;
             grid-column-gap: 0;
@@ -363,12 +363,12 @@
             transform: scale(.5);
         }
 
-        .container[data-v-40af7bad][data-v-40af7bad][data-v-40af7bad] {
+        .container {
             background-color: #E1E1E1;
             height: 500px;
         }
 
-        h1[data-v-40af7bad][data-v-40af7bad] {
+        h1 {
             color: black;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -377,7 +377,7 @@
             padding-top: 1rem;
         }
 
-        .grid[data-v-40af7bad] {
+        .grid{
             display: grid;
             justify-content: space-between;
             grid-column-gap: 0;

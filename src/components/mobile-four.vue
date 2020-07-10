@@ -29,7 +29,6 @@
         justify-content: center;
     }
 
-
     h1 {
         text-align: left;
         font-size: 20px;

@@ -19,7 +19,7 @@
 
 <style scoped>
     .contact {
-        padding-top: 2rem;
+        padding-top: 0;
         text-align: left;
     }
 
@@ -35,7 +35,7 @@
         padding: 1rem;
         display: flex;
         flex-direction: column;
-        margin-top: 2rem;
+        margin-top: 0;
     }
 
     .footer {
@@ -44,7 +44,7 @@
         display: flex;
         align-items: center;
         padding-left: 15%;
-        height: 5%;
+        height: 3%;
     }
 
     a {
@@ -63,7 +63,7 @@
     /*====================================================max-width: 1024========================================*/
     @media (max-width: 1024px) {
         .footer {
-            height: 3rem;
+
         }
     }
     /*====================================================max-width: 1024========================================*/
@@ -80,7 +80,6 @@
             display: flex;
             align-items: center;
             padding-left: 0;
-            height: 8rem;
         }
         a{
             font-size: 17px;
