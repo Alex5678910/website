@@ -28,7 +28,7 @@
         </div>
         <div class="mobile animate__animated animate__bounceInLeft animate__fast" v-show="this.bur">
             <ul class="mobile-ul">
-                <router-link :to="'/'" tag="li" v-for="item in items" :key="item.it">
+                <router-link :to="item.url" tag="li" v-for="item in items" :key="item.it">
                     <a @click="openSlide">{{item.it}}</a></router-link>
             </ul>
             <p class="p animate__animated animate__pulse" @click="openSlide">Нужна консультация?</p>
@@ -52,10 +52,10 @@
             return {
                 bur: false,
                 items: [
-                    {it: 'web-разработка'},
-                    {it: 'Разработка мобильных приложений'},
-                    {it: 'Разработка CRM-системы'},
-                    {it: 'Продвижение чат-ботов'},
+                    {it: 'web-разработка', url: '/good'},
+                    {it: 'Разработка мобильных приложений', url: '/mobile'},
+                    {it: 'Разработка CRM-системы', url: '/crm'},
+                    {it: 'Продвижение чат-ботов', url: '/bots'},
                 ]
             }
         }

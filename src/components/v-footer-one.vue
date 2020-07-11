@@ -112,6 +112,7 @@
 
     input[type="file"] {
         display: none;
+        font-family: 'Montserrat', sans-serif;
 
     }
 
@@ -135,6 +136,7 @@
 
     h1, small, img {
         margin-left: 8.5rem;
+        font-family: 'Montserrat', sans-serif;
     }
 
     small {
@@ -162,6 +164,7 @@
         align-items: flex-start;
         justify-content: center;
         padding-left: 10%;
+        font-family: 'Montserrat Alternates', sans-serif;
     }
 
     button {
@@ -176,9 +179,10 @@
     button:focus {
         outline: none;
     }
+
     /*====================================================max-width: 1366========================================*/
     @media (max-width: 1366px) {
-        .input{
+        .input {
             margin-left: 5rem;
             width: 85%;
             margin-top: 1rem;
@@ -191,11 +195,12 @@
             font-family: 'Montserrat Alternates', sans-serif;
         }
     }
+
     /*====================================================max-width: 1366========================================*/
     /*====================================================max-width: 1024px========================================*/
     @media (max-width: 1024px) {
         .footer {
-            margin-bottom: 3rem;
+            margin-bottom: 0;
             background-color: #000000;
             color: aliceblue;
             display: flex;
@@ -213,8 +218,9 @@
         .input {
             font-size: 1.7rem;
         }
-        h1[data-v-3e51c90a], small[data-v-3e51c90a], img[data-v-3e51c90a] {
-            margin-left: 4rem;
+
+        h1, small, img {
+            margin-left: 16%;
         }
     }
 
@@ -239,6 +245,13 @@
 
     /*====================================================max-width: 414========================================*/
     @media (max-width: 414px) {
+        h1, small, img {
+            margin-left: 16%;
+        }
+        label{
+            font-size: 88%;
+        }
+
         button {
             width: 58%;
             height: 5%;
@@ -265,7 +278,7 @@
             margin-left: 0;
         }
 
-        .footer small{
+        .footer small {
             margin-left: 0;
         }
 
@@ -290,6 +303,11 @@
             font-size: 13px;
             font-family: 'Montserrat Alternates', sans-serif;
 
+        }
+
+        img {
+            width: 5%;
+            margin-top: 1rem;
         }
     }
 

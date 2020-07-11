@@ -62,8 +62,6 @@
     }
     .rectangle .text::before{
         content: "";
-        /* width: 1rem; */
-        /* height: 1rem; */
         border: 2px solid #c3bcbc;
         border-radius: 50%;
         padding: 0 12px;
@@ -159,4 +157,11 @@
     .svg {
         text-align: left;
     }
+   /* ================================================max-width: 414px==================================================*/
+    @media (max-width: 414px) {
+        .container {
+            display: none;
+        }
+    }
+    /* ================================================max-width: 414px==================================================*/
 </style>
