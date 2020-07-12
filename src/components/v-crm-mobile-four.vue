@@ -1,27 +1,23 @@
 <template>
     <div class="container">
-        <div class="main">
-            <h1>Digital development</h1>
-            <h2>Разработка CRM-систем<br>
-                для вашего бизнеса</h2>
-        </div>
         <div class="main-two">
             <div class="main-three">
-            <p class="crm">CRM для оптимизации склада</p>
-            <p class="crm-two">CRM система для автоматизации бизнеса.<br>
-                позволяет управлять продажами и<br>
-                закупками, контролировать взаиморасчеты,<br>
-                вести складской учет, а также печатать все<br>
-                необходимые для ведения бизнеса<br>
-                документы.</p>
-        </div>
+                <p class="crm">CRM для продаж</p>
+                <p class="crm-two">CRM хранит историю отношений между<br>
+                    продавцом и покупателем. На основании<br>
+                    данных бренды оптимизируют работу<br>
+                    сотрудников, внедряют новые<br>
+                    маркетинговые инструменты, повышают<br>
+                    уровень обслуживания и стимулируют<br>
+                    рост прибыли.</p>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "v-crm-mobile-one"
+        name: "v-crm-mobile-four"
     }
 </script>
 
@@ -79,10 +75,6 @@
         padding-bottom: 6%;
     }
 
-    .main {
-        background-color: #040510;
-    }
-
     .container {
         max-width: 414px;
     }
@@ -128,3 +120,4 @@
     }
     /* =======================================max-width: 320px==================================*/
 </style>
+

@@ -5,6 +5,8 @@
         <v-crm-two></v-crm-two>
         <v-crm-mobile-one></v-crm-mobile-one>
         <v-crm-mobile-two></v-crm-mobile-two>
+        <v-crm-mobile-three></v-crm-mobile-three>
+        <v-crm-mobile-four></v-crm-mobile-four>
         <v-footer-one></v-footer-one>
         <v-footer-two></v-footer-two>
     </div>
@@ -18,10 +20,15 @@
     import MobileHeader from "./mobile-header";
     import VCrmMobileOne from "./v-crm-mobile-one";
     import VCrmMobileTwo from "./v-crm-mobile-two";
+    import VCrmMobileThree from "./v-crm-mobile-three";
+    import VCrmMobileFour from "./v-crm-mobile-four";
 
     export default {
         name: "v-crm",
-        components: {VCrmMobileTwo, VCrmMobileOne, MobileHeader, VFooterTwo, VFooterOne, VCrmTwo, VCrmOne},
+        components: {
+            VCrmMobileFour,
+            VCrmMobileThree,
+            VCrmMobileTwo, VCrmMobileOne, MobileHeader, VFooterTwo, VFooterOne, VCrmTwo, VCrmOne},
     }
 </script>
 

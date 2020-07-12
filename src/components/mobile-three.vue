@@ -6,7 +6,7 @@
                 вашего бизнеса</h1>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
-            <img src="../assets/mobail/list.png" alt="" class="list">
+            <img src="../assets/mobail/list.png" alt="" class="list" @click="openSlide">
         </div>
         <div class="text">
             <h3>Автоматизируйте свой рабочий процесс вместе с нами</h3><br>
@@ -16,26 +16,34 @@
 
 <script>
     export default {
-        name: "mobile-three"
+        name: "mobile-three",
+        methods: {
+            openSlide() {
+                window.scrollTo(0, 3100)
+            }
+        }
     }
 </script>
 
 <style scoped>
 
-    img{
+    img {
         margin-left: 41%;
         position: fixed;
     }
-    .text{
+
+    .text {
         max-width: 414px;
     }
-    h3{
+
+    h3 {
         color: black;
         font-size: 10px;
         font-family: 'Montserrat', sans-serif;
         font-weight: normal;
         padding-top: 5%;
     }
+
     .logo span {
         color: #FFFFFF;
     }
@@ -64,11 +72,13 @@
         font-family: 'Montserrat Alternates', sans-serif;
         margin-left: 11%;
     }
+
     /* =======================================min-width: 414px==================================*/
     @media (min-width: 415px) {
-        .containers{
+        .containers {
             display: none;
         }
     }
+
     /* =======================================min-width: 414px==================================*/
 </style>

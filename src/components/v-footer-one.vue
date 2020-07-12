@@ -350,6 +350,8 @@
         .input__wrapper {
             display: flex;
             align-items: flex-start;
+            padding-left: 7%;
+            padding-top: 2%;
         }
 
         .input {

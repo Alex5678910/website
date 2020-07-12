@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="fixed">
-            <img src="../assets/mobail/list.png" alt="" class="list">
+            <img src="../assets/mobail/list.png" alt="" class="list" @click="openSlide">
         </div>
         <div class="main">
             <p>development</p>
@@ -25,21 +25,49 @@
                       transform="translate(-8140.137 -1950.246)" fill="none" stroke="#707070" stroke-width="1"/>
             </g>
         </svg>
+        <div class="images">
+            <img src="../assets/mobail/one-crm.png" alt="" class="one-crm">
+            <img src="../assets/mobail/two-crm.png" alt="" class="two-crm">
+            <img src="../assets/mobail/three-crm.png" alt="" class="three-crm">
+        </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "v-crm-mobile-two"
+        name: "v-crm-mobile-two",
+        methods: {
+            openSlide() {
+                window.scrollTo(0, 3100)
+            }
+        }
     }
 </script>
 
 <style scoped>
-    .fixed{
+    .two-crm {
+        width: 25%;
+    }
+
+    .three-crm {
+        width: 25%;
+    }
+
+    .one-crm {
+        width: 50%;
+    }
+
+    .images {
+        display: flex;
+        padding-top: 5%;
+    }
+
+    .fixed {
         display: flex;
         justify-content: flex-end;
         margin-right: 2%;
     }
+
     .list {
         position: fixed !important;
     }
@@ -78,4 +106,31 @@
     }
 
     /* =======================================min-width: 414px==================================*/
+    /* =======================================max-width: 375px==================================*/
+    @media (max-width: 375px) {
+        .images {
+            display: flex;
+            padding-top: 10%;
+        }
+
+        .text {
+            color: #616161;
+            font-size: 12px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin-bottom: 13%;
+            margin-top: 7%;
+        }
+    }
+
+    /* =======================================max-width: 375px==================================*/
+    /* =======================================max-width: 320px==================================*/
+    @media (max-width: 320px) {
+        .images {
+            display: flex;
+            padding-top: 15%;
+        }
+    }
+
+    /* =======================================max-width: 320px==================================*/
 </style>

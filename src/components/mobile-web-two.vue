@@ -17,14 +17,19 @@
             и обслуживании.</h2>
         <div class="icon">
         <img src="../assets/mobail/mobile-monitor-one.png" alt="" class="monitor">
-            <img src="../assets/mobail/list.png" alt="" class="list">
+            <img src="../assets/mobail/list.png" alt="" class="list" @click="openSlide">
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "mobile-web-two"
+        name: "mobile-web-two",
+        methods: {
+            openSlide() {
+                window.scrollTo(0, 3100)
+            }
+        }
     }
 </script>
 

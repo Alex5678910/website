@@ -1,5 +1,8 @@
 <template>
     <div class="container">
+        <div class="fixed">
+            <img src="../assets/mobail/list.png" alt="" class="list" @click="openSlide">
+        </div>
         <h1>7 причин</h1>
         <ul>
             <li>Повышение продаж</li>
@@ -23,9 +26,6 @@
             <div class="flex__item">
                 <img src="../assets/images/t3.png" alt="">
             </div>
-            <div class="fixed">
-                <img src="../assets/mobail/list.png" alt="" class="list">
-            </div>
         </div>
         <div class="footer">
             <div class="digital">digital</div>
@@ -36,7 +36,12 @@
 
 <script>
     export default {
-        name: "v-h-mobile-two"
+        name: "v-h-mobile-two",
+        methods: {
+            openSlide() {
+                window.scrollTo(0, 3100)
+            }
+        }
     }
 </script>
 
@@ -45,9 +50,13 @@
         width: 52px;
         height: 52px;
     }
-    .fixed{
+
+    .fixed {
         padding-right: 2%;
+        display: flex;
+        justify-content: flex-end;
     }
+
     .list {
         position: fixed;
 
