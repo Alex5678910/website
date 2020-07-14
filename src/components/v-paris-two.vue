@@ -109,7 +109,7 @@
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
             padding-top: 75%;
-            text-align: center;
+            text-align: right;
             font-size: 346%;
         }
         .text {
@@ -117,6 +117,16 @@
             top: -50%;
             right: 10%;
         }
+        .main{
+            background-attachment: fixed;
+            background-position: center;
+            height: 55rem;
+            display: flex;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
     }
 
     /*====================================================max-width: 1024========================================*/

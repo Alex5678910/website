@@ -21,10 +21,14 @@
 </script>
 
 <style scoped>
+    .container{
+        perspective: 1px;
+        transform-style: preserve-3d;
+    }
     .romb-3 img{
         width: 17%;
         height: auto;
-        margin-top: -9.5%;
+        margin-top: -7%;
         margin-left: 4%;
     }
 
@@ -35,7 +39,7 @@
         font-weight: bold;
         font-family: 'Montserrat Alternates', sans-serif;
         padding-bottom: 21%;
-        padding-top: 7%;
+        padding-top: 2%;
         padding-right: 8%;
 
     }
@@ -45,7 +49,9 @@
         background-position: center;
         background-repeat: no-repeat;
         box-shadow: -1px 14px 9px -8px #3f2adf;
+        height: 100vh;
         background-size: cover;
+        box-sizing: border-box;
     }
 
     h1 {
@@ -68,7 +74,7 @@
 
     @media (max-width: 1366px) {
         .romb-3 img{
-            margin-top: -10%;
+            margin-top: -7%;
         }
         h1 {
             font-family: Montserrat, sans-serif;
@@ -105,9 +111,9 @@
     /*====================================================max-width: 1366px========================================*/
     /*====================================================max-width: 1025px========================================*/
 
-    @media (max-width: 1025px) {
+    @media (max-width: 1024px) {
         .romb-3 img{
-            margin-top: -12%;
+            margin-top: -7%;
         }
 
         h1{
@@ -120,6 +126,11 @@
             padding-left: 9%;
             margin-top: -16px;
         }
+        .header {
+            box-shadow: -1px 14px 9px -8px #3f2adf;
+            max-width: 1366px;
+            height: 47vh;
+        }
     }
 
     /*====================================================max-width: 1025px========================================*/
@@ -129,46 +140,5 @@
             display: none;
         }
     }
-
     /*====================================================max-width: 414========================================*/
-/*    !*====================================================max-width: 414px========================================*!
-
-    @media (max-width: 414px) {
-        h1{
-            font-size: 427%;
-        }
-        h2 {
-            font-size: 335%;
-            text-align: center;
-            padding-bottom: 15%;
-            padding-right: 4%;
-        }
-        .romb-3{
-            display: none;
-        }
-    }
-
-    !*====================================================max-width: 414px========================================*!
-    !*====================================================max-width: 376px========================================*!
-    @media (max-width: 376px) {
-        h1{
-            font-size: 384%;
-        }
-        h2{
-            font-size: 253%;
-        }
-    }
-
-    !*====================================================max-width: 376px========================================*!
-    !*====================================================max-width: 320px========================================*!
-    @media (max-width: 320px) {
-        h1 {
-            font-size: 320%;
-        }
-        h2 {
-            font-size: 254%;
-        }
-    }
-
-    !*====================================================max-width: 320px========================================*!*/
 </style>

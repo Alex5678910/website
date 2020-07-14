@@ -249,5 +249,10 @@
         display: flex;
         flex-direction: column;
     }
-
+    /*============================================================768===================================*/
+    @media (max-width: 414px) {
+        .main {
+            display: none;
+        }
+    }
 </style>

@@ -21,10 +21,10 @@
         </div>
         <div class="cont-two">
 
-        </div>
-        <img src="../assets/mobail/ifon-six.png" alt="" class="ifon">
         <div class="studio">kiwi.studio</div>
+        <img src="../assets/mobail/ifon-six.png" alt="" class="ifon">
         <div class="number">03</div>
+        </div>
     </div>
 </template>
 
@@ -39,32 +39,30 @@
         font-size: 40px;
         color: black;
         font-family: 'Montserrat', sans-serif;
-        position: absolute;
-        left: 80%;
-        top: 200%;
-        z-index: 10;
+        align-self: center;
     }
-    .studio{
+
+    .studio {
         font-size: 9px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
-        position: absolute;
-        left: 12%;
-        top: 179%;
-        color: white;
+        color: #0e0d0d;
+        align-self: self-start;
     }
-    .ifon{
-        position: absolute;
-        top: 167%;
-        left: 0;
-        width: 100%;
+
+    .ifon {
+        width: 62%;
     }
-    .cont-two{
+
+    .cont-two {
         background-color: white;
         width: 100%;
         height: 6rem;
-        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
     }
+
     li span {
         padding-left: 2%;
     }
@@ -93,7 +91,7 @@
 
     /* =======================================min-width: 414px==================================*/
     @media (min-width: 415px) {
-        .container {
+        .main {
             display: none;
         }
     }
@@ -101,87 +99,66 @@
     /* =======================================min-width: 414px==================================*/
     /* =======================================min-width: 411==================================*/
     @media (max-width: 411px) {
-        .ifon{
-            position: absolute;
-            top: 149%;
-            left: 0;
-            width: 100%;
+        .ifon {
+            width: 58%;
         }
+
         .studio {
             font-size: 9px;
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
-            position: absolute;
-            left: 12%;
-            top: 160%;
-            color: white;
         }
+
         .number {
             font-size: 40px;
             color: black;
             font-family: 'Montserrat', sans-serif;
-            position: absolute;
-            left: 80%;
-            top: 179%;
             z-index: 10;
         }
     }
+
     /* =======================================min-width: 411==================================*/
     /* =======================================min-width: 375==================================*/
     @media (max-width: 375px) {
-        .ifon{
-            position: absolute;
-            top: 188%;
-            left: 0;
-            width: 100%;
+        .ifon {
+            width: 58%;
         }
+
         .studio {
             font-size: 9px;
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
-            position: absolute;
-            left: 12%;
-            top: 199%;
-            color: white;
         }
+
         .number {
             font-size: 40px;
             color: black;
             font-family: 'Montserrat', sans-serif;
-            position: absolute;
-            left: 80%;
-            top: 220%;
             z-index: 10;
         }
     }
+
     /* =======================================min-width: 375==================================*/
     /* =======================================min-width: 360==================================*/
     @media (max-width: 360px) {
-        .ifon{
-            position: absolute;
-            top: 188%;
-            left: 0;
-            width: 100%;
+        .ifon {
+            width: 58%;
         }
+
         .studio {
             font-size: 9px;
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
-            position: absolute;
-            left: 12%;
-            top: 199%;
-            color: white;
         }
+
         .number {
             font-size: 40px;
             color: black;
             font-family: 'Montserrat', sans-serif;
-            position: absolute;
-            left: 80%;
-            top: 220%;
             z-index: 10;
         }
-        li{
+
+        li {
             list-style: none;
             font-size: 17px;
             text-align: left;
@@ -189,45 +166,41 @@
             color: #FEBDF5;
             padding-top: 3%;
         }
-        .container{
+
+        .container {
             background: linear-gradient(200deg, #1B1932, #100D0D, #431C1C);
             max-width: 414px;
             height: 558px;
         }
     }
+
     /* =======================================min-width: 360==================================*/
     /* =======================================min-width: 320==================================*/
     @media (max-width: 320px) {
-        .ifon{
-            position: absolute;
-            top: 195%;
-            left: 0;
-            width: 100%;
+        .ifon {
+            width: 58%;
         }
+
         .studio {
             font-size: 9px;
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
-            position: absolute;
-            left: 12%;
-            top: 209%;
-            color: white;
         }
+
         .number {
             font-size: 40px;
             color: black;
             font-family: 'Montserrat', sans-serif;
-            position: absolute;
-            left: 80%;
-            top: 226%;
             z-index: 10;
         }
-        .container{
+
+        .container {
             background: linear-gradient(200deg, #1B1932, #100D0D, #431C1C);
             max-width: 414px;
             height: 449px;
         }
     }
+
     /* =======================================min-width: 320==================================*/
 
 </style>

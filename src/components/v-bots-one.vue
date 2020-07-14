@@ -25,7 +25,7 @@
 
 <script>
     export default {
-        name: "v-bots-one"
+        name: "v-bots-one",
     }
 </script>
 
@@ -70,5 +70,11 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: 110vh;
+    }
+    /*============================================================768===================================*/
+    @media (max-width: 414px) {
+        .container {
+            display: none;
+        }
     }
 </style>

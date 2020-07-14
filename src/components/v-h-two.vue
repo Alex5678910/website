@@ -98,6 +98,7 @@
                 </g>
             </svg>
         </div>
+
         <div class="seven">
             <h1>7 причин</h1>
             <ul>
@@ -219,4 +220,97 @@
         }
     }
     /* ================================================max-width: 414px==================================================*/
+    /* ================================================max-width: 1366==================================================*/
+    @media (max-width: 1366px) {
+        .drown-two {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            position: absolute;
+            top: 91%;
+            left: 2%;
+        }
+        .drown-three {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            top: 90%;
+            left: 92%;
+        }
+        .drown-one {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            position: absolute;
+            top: 10%;
+            left: 90%;
+        }
+        .drown-one {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            position: absolute;
+            top: 10%;
+            left: 90%;
+        }
+        .grid {
+            margin-top: 7rem;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-gap: 1%;
+            grid-template-columns: 138px 170px;
+            grid-template-rows: 239px 340px;
+            grid-template-areas:
+        "aaa bbb"
+        "ccc ddd";
+        }
+        .grid__item:nth-child(1) {
+            grid-area: aaa;
+            transform: scale(.8);
+        }
+        .grid__item:nth-child(2) {
+            grid-area: bbb;
+            transform: scale(.8);
+        }
+        .grid__item:nth-child(3) {
+            grid-area: ccc;
+            transform: scale(.8);
+        }
+        .main{
+            max-width: 1366px;
+            height: 768px;
+        }
+        .drown-four {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 330px;
+            font-weight: bold;
+            color: #d6d2d2;
+            position: absolute;
+            top: -1%;
+            left: 52%;
+        }
+        h1{
+            color: #5A1212;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 53px;
+            text-align: center;
+        }
+        .seven ul li{
+            list-style: none;
+            color: #5A1212;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25px;
+            text-align: left;
+            margin-top: 2.5rem;
+        }
+    }
+    /* ================================================max-width: 1366==================================================*/
+    /* ================================================max-width: 1024==================================================*/
+    @media (max-width: 1024px) {
+
+    }
+    /* ================================================max-width: 1024==================================================*/
 </style>
+

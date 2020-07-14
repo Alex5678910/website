@@ -56,24 +56,6 @@
                 this.$refs.header.innerText = "ОТПРАВЛЕННО"
                 this.$refs.header.style.background = "green"
 
-                // let formData = new FormData();
-                // formData.append('file', this.file);
-                // // this.sumData.formData = formData;
-                //
-                // var self = this;
-                // window.axios({
-                //         method: 'POST',
-                //         url: self.url,
-                //         data: self.sumData,
-                //         headers: {
-                //             'content-type': 'multipart/form-data'
-                //         }
-                //     }).then(function (response) {
-                //         // self.act = true;
-                //         console.log(response);
-                //     });
-
-
                 let data = {
                     name: this.sumData.name,
                     mes: this.sumData.mes,
@@ -101,9 +83,6 @@
 </script>
 
 <style scoped>
-    .input__file {
-        padding-top: 2rem;
-    }
 
     .input__wrapper {
         display: flex;
@@ -276,6 +255,7 @@
             font-size: 18px;
             font-family: 'Montserrat Alternates', sans-serif;
             margin-left: 0;
+            margin-top: 10%;
         }
 
         .footer small {
