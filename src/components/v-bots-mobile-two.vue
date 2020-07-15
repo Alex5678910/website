@@ -138,10 +138,6 @@
         max-width: 414px;
         height: 1115px;
         background-image: url(../assets/images/bg-r-tvo.png);
-     /*   display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;*/
     }
     .card:nth-child(1) {
         grid-area: a;
@@ -240,4 +236,86 @@
         }
     }
     /* =======================================min-width: 414px==================================*/
+
+    /* =======================================min-width: 375px==================================*/
+    @media (max-width: 375px) {
+        .grid {
+            grid-row-gap: 1rem;
+            grid-column-gap: 1rem;
+            display: grid;
+            margin-left: 9%;
+            color: aliceblue;
+            align-items: center;
+            grid-template-columns: repeat(2, 90px);
+            grid-template-rows: repeat(8, 100px);
+            grid-template-areas:
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "k l"
+        "m o"
+        "p q";
+        }
+    }
+    /* =======================================min-width: 375px==================================*/
+    /* =======================================min-width: 375px==================================*/
+    @media (max-width: 375px) {
+        .grid {
+            grid-row-gap: 1rem;
+            grid-column-gap: 1rem;
+            display: grid;
+            margin-left: 9%;
+            color: aliceblue;
+            align-items: center;
+            grid-template-columns: repeat(2, 90px);
+            grid-template-rows: repeat(8, 100px);
+            grid-template-areas:
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "k l"
+        "m o"
+        "p q";
+        }
+    }
+    /* =======================================min-width: 375px==================================*/
+    /* =======================================min-width: 320px==================================*/
+    @media (max-width: 320px) {
+        .grid {
+            grid-row-gap: 1rem;
+            grid-column-gap: 1rem;
+            display: grid;
+            margin-left: 7%;
+            color: aliceblue;
+            align-items: center;
+            grid-template-columns: repeat(2, 90px);
+            grid-template-rows: repeat(8, 100px);
+            grid-template-areas:
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j"
+        "k l"
+        "m o"
+        "p q";
+        }
+        p{
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            margin: 0;
+            padding-top: 7%;
+            padding-bottom: 7%;
+            font-weight: bold;
+            text-align: left;
+            white-space: break-spaces;
+        }
+    }
+    /* =======================================min-width: 320px==================================*/
+
 </style>

@@ -259,7 +259,7 @@
     h1 {
         color: #0d0e23;
         font-family: 'Montserrat', sans-serif;
-        font-size: 60px;
+        font-size: 45px;
         text-align: center;
         margin: 0;
         padding-top: 7%;
@@ -340,4 +340,69 @@
             display: none;
         }
     }
+    /*============================================================1366===================================*/
+    @media (max-width: 1366px) {
+        .container {
+            max-width: 1366px;
+            height: 1380px;
+            width: 100vw;
+        }
+        h1{
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 45px;
+            text-align: center;
+            margin: 0;
+            padding-top: 7%;
+            padding-bottom: 0;
+        }
+        .grid{
+            transform: scale(.8);
+        }
+
+    }
+    /*============================================================1366===================================*/
+    /*============================================================1024===================================*/
+    @media (max-width: 1024px) {
+        .container {
+            max-width: 1024px;
+            height: 1230px;
+            width: 100vw;
+        }
+        h1{
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 45px;
+            text-align: center;
+            margin: 0;
+            padding-top: 7%;
+            padding-bottom: 0;
+        }
+        .grid{
+            transform: scale(.7);
+        }
+    }
+    /*============================================================1024===================================*/
+    /*============================================================768===================================*/
+    @media (max-width: 768px) {
+        .container {
+            max-width: 768px;
+            height: 869px;
+            width: 100vw;
+        }
+        h1{
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 34px;
+            text-align: center;
+            margin: 0;
+            padding-top: 7%;
+            padding-bottom: 0;
+        }
+        .grid{
+            transform: scale(.5);
+            margin-top: -28%;
+        }
+    }
+    /*============================================================768===================================*/
 </style>

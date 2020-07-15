@@ -59,7 +59,8 @@
 
     .list {
         position: fixed;
-
+        right: 3%;
+        top: 90%;
     }
 
     .footer {

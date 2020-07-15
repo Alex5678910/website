@@ -148,15 +148,25 @@
     @media (max-width: 768px) {
         a.info {
             color: aliceblue;
-            padding-right: 36%;
+            padding-right: 26%;
             font-size: 225%;
             font-family: 'Montserrat Alternates', sans-serif;
         }
+        h1{
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 9%;
+            font-size: 319%;
+            z-index: 100;
+            padding-left: 26%;
+        }
     }
-    /*====================================================max-width: 768========================================*/
+    /*====================================================max-width: 414========================================*/
     @media (max-width: 414px) {
         .main {
             display: none;
         }
     }
+    /*====================================================max-width: 414========================================*/
 </style>

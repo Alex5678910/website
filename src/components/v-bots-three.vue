@@ -1,4 +1,5 @@
 <template>
+    <div class="main-menu">
     <div class="main">
         <h1>Возможные функции</h1>
         <div class="container">
@@ -94,13 +95,14 @@
                 <h3>Аналитика</h3>
             </div>
         </div>
-            <div class="img"><img src="../assets/images/bg-robot-three.png" alt=""></div>
+            <div class="images-r"><img src="../assets/images/bg-robot-three.png" alt=""></div>
         </div>
         <div class="block-three">
             <div class="img"><img src="../assets/images/big-robot.png" alt=""></div>
             <p>Современные боты выполняют множество задач, автоматически, без участия человека,<br>
                 тем самым облегчая задачи и освобождая ваше время.</p>
         </div>
+    </div>
     </div>
 </template>
 
@@ -111,6 +113,14 @@
 </script>
 
 <style scoped>
+    .main-menu{
+        background-image: url(../assets/images/bg-robot.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1862px;
+        width: 100%;
+    }
     .block-three{
         display: flex;
         flex-direction: row;
@@ -130,7 +140,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-right: 20%;
+        padding-right: 17%;
     }
 
     .container{
@@ -240,7 +250,6 @@
     }
 
     .main {
-        background-image: url(../assets/images/bg-robot.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -251,8 +260,141 @@
     }
     /*============================================================768===================================*/
     @media (max-width: 414px) {
-        .main {
+        .main-menu {
             display: none;
         }
     }
+    /*============================================================1366===================================*/
+    @media (max-width: 1366px) {
+        .container{
+            position: relative;
+        }
+        .images-r{
+            position: absolute;
+            right: -12%;
+
+        }
+        .main {
+            max-width: 1366px;
+        }
+        .main{
+        transform: scale(.8);
+        }
+        .main-menu{
+            height: 1512px;
+            width: 100%;
+        }
+        h1{
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 40px;
+            text-align: center;
+            padding-top: 0;
+            padding-bottom: 5%;
+            margin-top: -9%;
+        }
+        .block-three{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 0%;
+            margin-bottom: 7%;
+        }
+        h2{
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 34px;
+            text-align: center;
+            padding-left: 1rem;
+            white-space: nowrap;
+        }
+        .container-one{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-right: 33%;
+        }
+    }
+    /*============================================================1366===================================*/
+    /*============================================================1024===================================*/
+    @media (max-width: 1024px) {
+        .container{
+            position: relative;
+        }
+        .images-r{
+            position: absolute;
+            right: -22%;
+
+        }
+        .main{
+            transform: scale(.7);
+            max-width: 1024px;
+        }
+        .main-menu{
+            height: 1261px;
+            width: 100%;
+        }
+        h1{
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 40px;
+            text-align: center;
+            padding-top: 0;
+            padding-bottom: 5%;
+            margin-top: -31%;
+        }
+        .block-three{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 0%;
+            margin-bottom: 34%;
+        }
+        h2{
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 34px;
+            text-align: center;
+            padding-left: 1rem;
+            white-space: nowrap;
+        }
+        .container-one{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-right: 33%;
+        }
+        p{
+            color: white;
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: normal;
+            text-align: left;
+        }
+    }
+    /*============================================================1024===================================*/
+    /*============================================================768===================================*/
+    @media (max-width: 768px) {
+        .images-r {
+            position: absolute;
+            right: -30%;
+            transform: scale(.7);
+        }
+        .block-three{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 0%;
+            transform: scale(1);
+        }
+        p{
+            color: white;
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: normal;
+            text-align: left;
+            display: none;
+        }
+    }
+    /*============================================================768===================================*/
 </style>

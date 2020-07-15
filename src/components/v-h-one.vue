@@ -279,4 +279,52 @@
         }
     }
     /* ================================================max-width: 1024==================================================*/
+    /* ================================================max-width: 768px==================================================*/
+    @media (max-width: 768px) {
+        .rectangle {
+            height: 47.3%;
+            background-color: #030303;
+            width: 19rem;
+            position: absolute;
+            right: 0px;
+            top: 112px;
+            font-size: 14px;
+            color: white;
+            font-family: 'Montserrat Alternates', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            opacity: .8;
+
+        }
+        h1{
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 37px;
+            text-align: left;
+        }
+        p{
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 11px;
+            text-align: left;
+            padding-bottom: 0;
+            padding-top: 9%;
+        }
+        .logo span{
+            color: white;
+            font-size: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+        .logo {
+            color: white;
+            font-size: 14px;
+            text-align: left;
+            font-family: 'Montserrat', sans-serif;
+            padding-bottom: 4%;
+        }
+    }
+    /* ================================================max-width: 768px==================================================*/
 </style>

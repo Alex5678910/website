@@ -76,6 +76,7 @@
         text-align: right;
         font-size: 162%;
     }
+
     /*====================================================max-width: 1366========================================*/
     @media (max-width: 1366px) {
         a.info {
@@ -85,10 +86,12 @@
             padding-left: 73%;
             font-family: 'Montserrat Alternates', sans-serif;
         }
-        img{
+
+        img {
             width: 40rem;
         }
-        h1{
+
+        h1 {
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -101,10 +104,11 @@
     /*====================================================max-width: 1366========================================*/
     /*====================================================max-width: 1024========================================*/
     @media (max-width: 1024px) {
-        img{
+        img {
             display: none;
         }
-        h1{
+
+        h1 {
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -112,12 +116,14 @@
             text-align: right;
             font-size: 346%;
         }
+
         .text {
             position: absolute;
             top: -50%;
             right: 10%;
         }
-        .main{
+
+        .main {
             background-attachment: fixed;
             background-position: center;
             height: 55rem;
@@ -134,13 +140,15 @@
     @media (max-width: 768px) {
 
         .images {
-             padding-top: 0;
-             padding-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
         }
-        img{
+
+        img {
             width: 47rem;
         }
-        h1{
+
+        h1 {
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -149,22 +157,28 @@
             font-size: 346%;
         }
     }
-    @media (max-width: 768px){
-        h1 {
-            color: aliceblue;
-            font-weight: bold;
-            font-family: 'Montserrat Alternates', sans-serif;
-            padding-top: 44rem;
-            padding-left: 5rem;
-            text-align: center;
-            font-size: 232%;
-        }
-    }
 
+    .main {
+        background-attachment: fixed;
+        background-position: center;
+        height: 45rem;
+        display: flex;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    h1{
+        color: aliceblue;
+        font-weight: bold;
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding-top: 60%;
+        font-size: 346%;
+        text-align: right;
+    }
     /*====================================================max-width: 769px========================================*/
     @media (max-width: 414px) {
 
-        .main{
+        .main {
             display: none;
         }
     }

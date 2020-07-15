@@ -247,4 +247,35 @@
             display: none;
         }
     }
+    /* =======================================min-width: 320px==================================*/
+    @media (max-width: 320px) {
+        h3{
+            color: #0d0e23;
+            font-size: 11px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: left;
+            font-weight: normal;
+            margin-left: 0;
+            padding-left: 4%;
+            white-space: break-spaces;
+        }
+        h2{
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            text-align: center;
+            padding-left: 6%;
+            white-space: nowrap;
+        }
+        .block-two{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10%;
+            padding-top: 0;
+            padding-bottom: 1%;
+        }
+    }
+    /* =======================================min-width: 320px==================================*/
+
 </style>

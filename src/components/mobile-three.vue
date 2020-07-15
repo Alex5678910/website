@@ -26,7 +26,6 @@
 </script>
 
 <style scoped>
-
     img {
         margin-left: 41%;
         position: fixed;
@@ -43,7 +42,6 @@
         font-weight: normal;
         padding-top: 5%;
     }
-
     .logo span {
         color: #FFFFFF;
     }
@@ -71,6 +69,11 @@
         color: #FFFFFF;
         font-family: 'Montserrat Alternates', sans-serif;
         margin-left: 11%;
+    }
+    .list {
+        position: fixed;
+        top: 90%;
+        right: 3%;
     }
 
     /* =======================================min-width: 414px==================================*/

@@ -378,5 +378,72 @@
     }
 
     /* ================================================max-width: 1024==================================================*/
+    /* ================================================max-width: 768px==================================================*/
+    @media (max-width: 768px) {
+        .text ul li {
+            color: #febdf5;
+            list-style: none;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 11px;
+            text-align: left;
+            margin-left: -17px;
+            z-index: 5;
+            line-height: 1.3rem;
+            white-space: nowrap;
+        }
+        h1{
+            color: #febdf5;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            margin-left: 74px;
+            margin-top: 151px;
+            z-index: 555;
+        }
+        .svg-one {
+            margin-left: 70px;
+            z-index: 5;
+            width: 31px;
+            margin-top: -4rem;
+        }
+        .svg-two {
+            position: absolute;
+            top: 11%;
+            left: 91%;
+            width: 4%;
+            height: 27rem;
+        }
+        .container{
+            max-width: 1366px;
+            height: 590px;
+        }
+        .drown-two {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10px;
+            font-weight: bold;
+            position: absolute;
+            top: 91%;
+            left: 4%;
+            color: #E1E1E1;
+        }
+        .drown-one {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10px;
+            font-weight: bold;
+            position: absolute;
+            top: 10%;
+            left: 3%;
+            color: #E1E1E1;
+        }
+        .drown-three {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            position: absolute;
+            top: 90%;
+            left: 92%;
+            color: #E1E1E1;
+        }
+    }
+    /* ================================================max-width: 768px==================================================*/
 </style>
 

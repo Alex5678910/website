@@ -131,6 +131,9 @@
 </script>
 
 <style scoped>
+    h1{
+        font-family: 'Montserrat', sans-serif;
+    }
     .images{
         width: 60px;
         height: 60px;
@@ -138,6 +141,7 @@
         border-radius: 50%;
     }
     .grid {
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 2rem;
         margin-top: 2rem;
         display: grid;
@@ -272,6 +276,37 @@
     @media (min-width: 415px) {
         .container{
             display: none;
+        }
+    }
+    /*====================================================min-width: 415========================================*/
+    /*====================================================min-width: 415========================================*/
+    @media (max-width: 320px) {
+        .grid {
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            display: grid;
+            justify-content: center;
+            grid-column-gap: 0;
+            grid-row-gap: 0;
+            align-items: center;
+            grid-template-columns: 100px 200px;
+            grid-template-rows: 60px 35px 60px 35px 60px 35px 60px 35px 60px 35px 60px 35px 60px 35px 60px;
+            grid-template-areas: "a b"
+                             "c cc"
+                             "d e"
+                             "f ff"
+                             "g h"
+                             "i ii"
+                             "j k"
+                             "l ll"
+                             "m o"
+                             "p pp"
+                             "q r"
+                             "t tt"
+                             "u v"
+                             "w ww"
+                             "z aa"
         }
     }
     /*====================================================min-width: 415========================================*/

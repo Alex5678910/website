@@ -93,7 +93,7 @@
 
     .web {
         position: absolute;
-        top: 50%;
+        top: 31%;
         left: 7.5%;
     }
 

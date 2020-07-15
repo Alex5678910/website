@@ -141,4 +141,21 @@
         }
     }
     /*====================================================max-width: 414========================================*/
+    /*====================================================max-width: 1025px========================================*/
+
+    @media (max-width: 1024px) {
+        h2{
+            font-size: 186%;
+            text-align: right;
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-bottom: 17%;
+            padding-top: 0%;
+            padding-right: 8%;
+        }
+    }
+
+    /*====================================================max-width: 1025px========================================*/
 </style>
+

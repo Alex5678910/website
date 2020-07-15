@@ -37,10 +37,10 @@
 </script>
 
 <style scoped>
-    .list{
+    .list {
         position: fixed;
-        top: 30%;
-        right: 5%;
+        top: 90%;
+        right: 3%;
     }
     .padding{
         padding-top: 2%;
@@ -90,4 +90,25 @@
         }
     }
     /* =======================================min-width: 414px==================================*/
+    /* =======================================min-width: 360px==================================*/
+    @media (max-width: 360px) {
+        h1 {
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 17px;
+            text-align: left;
+            margin: 0;
+            padding-top: 6%;
+        }
+        h2 {
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            text-align: left;
+            font-style: italic;
+            font-weight: normal;
+            padding-top: 7%;
+        }
+    }
+    /* =======================================min-width: 360px==================================*/
 </style>

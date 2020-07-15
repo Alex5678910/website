@@ -232,7 +232,7 @@
         a {
             color: white;
             font-family: 'Montserrat', sans-serif;
-            font-size: 0.8rem;
+            font-size: 0.6rem;
         }
 
     }
@@ -241,9 +241,6 @@
     /*====================================================max-width: 768px========================================*/
     @media (max-width: 768px) {
 
-        .flex-three a:nth-child(2n) {
-            display: none;
-        }
 
         .header {
             background-color: #000000;
