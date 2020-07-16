@@ -21,7 +21,8 @@ export default new VueRouter({
         },
         {
             path: '/crm',
-            component: vCrm
+            component: vCrm,
+            name: 'crm'
         },
         {
             path: '/bots',

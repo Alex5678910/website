@@ -10,7 +10,7 @@
             <hr>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
-            <router-link tag="a" :to="'/crm'" @click="openUp">Подробнее</router-link>
+            <router-link :to="{name: 'crm'}">Подробнее</router-link>
         </div>
     </div>
 </template>
@@ -19,9 +19,9 @@
     export default {
         name: "v-paris-two",
         methods:{
-            openUp(){
-                window.scrollTo(0, 0)
-            }
+            // openUp(){
+            //     window.scrollTo(0, 0)
+            // }
         }
     }
 </script>
