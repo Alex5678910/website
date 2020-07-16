@@ -30,7 +30,7 @@
         color: aliceblue;
         vertical-align: middle;
         font-family: 'Montserrat', sans-serif;
-        font-size: 100px;
+        font-size: 404%;
         font-weight: normal;
         padding-top: 15%;
         padding-bottom: 15%;

@@ -10,43 +10,52 @@
             <hr>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
-            <a class="info" href="#">Подробнее</a>
+            <router-link tag="a" :to="'/crm'" @click="openUp">Подробнее</router-link>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "v-paris-two"
+        name: "v-paris-two",
+        methods:{
+            openUp(){
+                window.scrollTo(0, 0)
+            }
+        }
     }
 </script>
 
 <style scoped>
+
     .images {
-        padding-top: 4%;
-        padding-bottom: 6%;
+        padding-top: 0;
+        padding-bottom: 0;
+        position: absolute;
+        transform: scale(.7);
+        left: -4%;
+        top: 9%;
     }
 
     .text {
         position: absolute;
-        top: -9%;
-        right: 10%;
+        top: 11%;
+        right: 16%;
     }
 
     h1 {
         color: aliceblue;
         font-weight: bold;
         font-family: 'Montserrat Alternates', sans-serif;
-        padding-top: 43%;
         text-align: right;
-        font-size: 378%;
+        font-size: 312%;
     }
 
     .main {
         background-image: url(../assets/img/bg4.png);
         background-attachment: fixed;
         background-position: center;
-        height: 63rem;
+        height: 915px;
         display: flex;
         background-size: cover;
         background-repeat: no-repeat;
@@ -60,11 +69,11 @@
         margin-top: 4%;
     }
 
-    a.info {
+    a{
         color: aliceblue;
         font-size: 195%;
         text-align: right;
-        padding-left: 81%;
+        padding-left: 76%;
         font-family: 'Montserrat Alternates', sans-serif;
     }
 
@@ -79,11 +88,14 @@
 
     /*====================================================max-width: 1366========================================*/
     @media (max-width: 1366px) {
-        a.info {
+        .main {
+            height: 768px;
+        }
+        a{
             color: aliceblue;
-            font-size: 195%;
+            font-size: 162%;
             text-align: right;
-            padding-left: 73%;
+            padding-left: 78%;
             font-family: 'Montserrat Alternates', sans-serif;
         }
 
@@ -98,6 +110,19 @@
             padding-top: 37%;
             text-align: right;
             font-size: 273%;
+        }
+        .text{
+            position: absolute;
+            top: -21%;
+            right: 5%;
+        }
+        .images{
+            padding-top: 0;
+            padding-bottom: 0;
+            position: absolute;
+            transform: scale(.9);
+            left: -4%;
+            top: 9%;
         }
     }
 
@@ -148,33 +173,26 @@
             width: 47rem;
         }
 
-        h1 {
+        .main {
+            background-attachment: fixed;
+            background-position: center;
+            height: 45rem;
+            display: flex;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        h1{
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
-            padding-top: 37%;
-            text-align: center;
+            padding-top: 60%;
             font-size: 346%;
+            text-align: right;
         }
     }
 
-    .main {
-        background-attachment: fixed;
-        background-position: center;
-        height: 45rem;
-        display: flex;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-    h1{
-        color: aliceblue;
-        font-weight: bold;
-        font-family: 'Montserrat Alternates', sans-serif;
-        padding-top: 60%;
-        font-size: 346%;
-        text-align: right;
-    }
+
     /*====================================================max-width: 769px========================================*/
     @media (max-width: 414px) {
 

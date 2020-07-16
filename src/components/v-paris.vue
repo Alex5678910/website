@@ -7,7 +7,7 @@
             <h2>Наша продуманная работа <br>
                 поможет представить вам свой контент<br>
                 в самом выгодном свете</h2>
-            <a class="info" href="#">Подробнее</a>
+            <router-link tag="a" :to="'/good'"><a class="info" @click="openUp()">Подробнее</a></router-link>
         </div>
         <div class="images">
             <img src="../assets/img/m1.png" alt="">
@@ -17,7 +17,12 @@
 
 <script>
     export default {
-        name: "v-paris"
+        name: "v-paris",
+        methods:{
+            openUp(){
+                window.scrollTo(0, 0)
+            }
+        }
     }
 </script>
 
@@ -32,12 +37,13 @@
     .images {
         position: absolute;
         right: 0;
+        transform: scale(.8);
     }
 
     .main {
         background-image: url(../assets/img/bg2.png);
         background-attachment: fixed;
-        height: 70rem;
+        height: 980px;
         display: flex;
         background-size: cover;
         background-repeat: no-repeat;
@@ -119,6 +125,9 @@
             margin-left: -20%;
             font-size: 177%;
             font-family: 'Montserrat Alternates', sans-serif;
+        }
+        .main {
+            height: 768px;
         }
     }
 

@@ -7,7 +7,7 @@
             <h2>Дайте вашим клиентам возможность<br>
                 пользоваться вашими услугами прямо с<br>
                 мобильного телефона</h2>
-            <a class="info" href="#">Подробнее</a>
+            <router-link tag="a" :to="'/mobile'" @click="openUp()"><a class="info">Подробнее</a></router-link>
         </div>
         <div class="images">
             <img src="../assets/img/m3.png" alt="">
@@ -17,7 +17,12 @@
 
 <script>
     export default {
-        name: "v-paris-three"
+        name: "v-paris-three",
+        methods:{
+            openUp(){
+                window.scrollTo(0, 0)
+            }
+        }
     }
 </script>
 
@@ -25,20 +30,21 @@
     a.info {
         color: aliceblue;
         padding-right: 43%;
-        font-size: 225%;
+        font-size: 204%;
         font-family: 'Montserrat Alternates', sans-serif;
     }
 
     .images {
         position: absolute;
         right: 0;
+        transform: scale(.8);
     }
 
     .main {
         background-image: url(../assets/img/bg6.png);
         background-attachment: fixed;
         background-position: center;
-        height: 63rem;
+        height: 955px;
         display: flex;
         background-size: cover;
         background-repeat: no-repeat;
@@ -52,7 +58,7 @@
         padding-top: 3%;
         text-align: left;
         padding-left: 18%;
-        font-size: 225%;
+        font-size: 203%;
     }
 
     h1 {
@@ -62,7 +68,7 @@
         padding-top: 28%;
         text-align: left;
         padding-left: 11.5rem;
-        font-size: 400%;
+        font-size: 349%;
     }
 
     hr {
@@ -73,6 +79,9 @@
     }
     /*====================================================max-width: 1366========================================*/
     @media (max-width: 1366px) {
+        .text{
+
+        }
         hr{
             width: 65%;
             margin-left: 23%;
@@ -82,15 +91,15 @@
 
         img {
             width: 40rem;
-            margin-top: 30%;
-            margin-left: 0%;
+            margin-top: 0;
+            margin-left: 0;
         }
 
         h1{
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
-            padding-top: 47%;
+            padding-top: 24%;
             font-size: 255%;
             z-index: 100;
             text-align: left;
@@ -116,6 +125,9 @@
             padding-right: 30%;
             font-size: 183%;
             font-family: 'Montserrat Alternates', sans-serif;
+        }
+        .main {
+            height: 768px;
         }
     }
 

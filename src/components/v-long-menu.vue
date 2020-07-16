@@ -246,32 +246,31 @@
     }
 
     .grid {
-        grid-row-gap: 1rem;
-        margin-top: 9rem;
+        margin-top: 5rem;
         display: grid;
         justify-content: center;
         color: aliceblue;
         align-items: center;
         grid-template-columns: 150px 196px 185px 208px 185px 196px 150px;
-        grid-template-rows: repeat(17, 183px);
+        grid-template-rows: repeat(17, 120px);
         grid-template-areas:
-                "nnnq a b c d e rrrq"
-                "f f g g g h h"
-                "nnne i i i i i rrre"
-                "nnnr j k l m z rrrr"
-                "o o p p p q q"
-                "nnny er er er er er rrry"
-                "nnnu tt t u v w rrru"
-                "xx xx yy yy yy zz zz"
-                "nnno ss ss ss ss ss rrro"
-                "nnnp aa bb cc dd ee rrrp"
-                "ff ff gg gg gg hh hh"
-                "nnns ii ii ii ii ii rrrs"
-                "nnnd jj kk ll mmm oo rrrd"
-                "pp pp qq qq qq rr rr"
-                "nnng uu uu uu uu uu rrrg"
-                "nnnh bbb bbb ccc ddd ddd rrrh"
-                "nnnj eee eee nnnn fff fff rrrj"
+        "nnnq a b c d e rrrq"
+        "f f g g g h h"
+        "nnne i i i i i rrre"
+        "nnnr j k l m z rrrr"
+        "o o p p p q q"
+        "nnny er er er er er rrry"
+        "nnnu tt t u v w rrru"
+        "xx xx yy yy yy zz zz"
+        "nnno ss ss ss ss ss rrro"
+        "nnnp aa bb cc dd ee rrrp"
+        "ff ff gg gg gg hh hh"
+        "nnns ii ii ii ii ii rrrs"
+        "nnnd jj kk ll mmm oo rrrd"
+        "pp pp qq qq qq rr rr"
+        "nnng uu uu uu uu uu rrrg"
+        "nnnh bbb bbb ccc ddd ddd rrrh"
+        "nnnj eee eee nnnn fff fff rrrj";
     }
 
     .grid__item:nth-child(1) {

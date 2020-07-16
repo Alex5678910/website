@@ -150,7 +150,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 1862px;
+        height: 1233px;
         width: 100%;
     }
     .img{

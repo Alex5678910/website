@@ -15,7 +15,7 @@
         <div>
             <div class="flex-two">
                 <div>
-                    <a href="tel: 7(927)-770-77-75" class="a animate__animated animate__pulse">т. 7(927)-770-77-75</a>
+                    <a href="tel: 7(927)-770-77-75" class="a animate__animated animate__pulse">т. +7(927)-770-77-75</a>
                 </div>
 
                 <div>
@@ -234,14 +234,11 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 0.6rem;
         }
-
     }
 
     /*====================================================max-width: 1025px========================================*/
     /*====================================================max-width: 768px========================================*/
     @media (max-width: 768px) {
-
-
         .header {
             background-color: #000000;
             display: flex;

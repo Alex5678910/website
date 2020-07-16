@@ -13,7 +13,7 @@
             </router-link>
             <div class="right">
                 <div>
-                    <a href="tel: 7(927)-770-77-75">7(927)-770-77-75</a>
+                    <a href="tel: 7(927)-770-77-75">+7(927)-770-77-75</a>
                 </div>
                 <div class="burger" @click="burger">
                     <svg id="Component_54_2" data-name="Component 54 – 2" width="28" height="15" viewBox="0 0 28 15">
@@ -29,7 +29,7 @@
         <div class="mobile animate__animated animate__bounceInLeft animate__fast" v-show="this.bur">
             <ul class="mobile-ul">
                 <router-link :to="item.url" tag="li" v-for="item in items" :key="item.it">
-                    <a @click="openSlide">{{item.it}}</a></router-link>
+                    <a>{{item.it}}</a></router-link>
             </ul>
             <p class="p animate__animated animate__pulse" @click="openSlide">Нужна консультация?</p>
         </div>
