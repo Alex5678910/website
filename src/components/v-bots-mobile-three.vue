@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <h1>Возможные функции</h1>
+        <div class="title">Возможные функции</div>
 
             <div class="container-one">
 
@@ -220,7 +220,7 @@
         white-space: nowrap;
     }
 
-    h1 {
+    div.title {
         color: #0d0e23;
         font-family: 'Montserrat', sans-serif;
         font-size: 22px;

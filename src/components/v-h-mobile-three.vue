@@ -1,7 +1,7 @@
 <template>
     <div class="main">
         <div class="container">
-            <h1>Этапы работ</h1>
+            <div class="title">Этапы работ</div>
             <ul>
                 <li>-Сбор требований к приложению</li>
                 <li>-Предварительная оценка<br>
@@ -76,11 +76,12 @@
         padding-top: 4%;
     }
 
-    h1 {
+    div.title {
         font-size: 20px;
         color: #FEBDF5;
         font-family: 'Montserrat', sans-serif;
         padding-top: 5%;
+        margin: 40px 0;
     }
 
     .container {

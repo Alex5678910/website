@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Почему это удобно?</h1>
+        <div class="title">Почему это удобно?</div>
         <h2>Мы с вами придумываем удобный<br>
             интерфейс для клиентов и для вас.<br>
             Уникальный дизайн поможет задержать<br>
@@ -49,7 +49,7 @@
         justify-content: space-around;
     }
 
-    h1{
+    div.title{
         color: #000000;
         font-size: 23px;
         font-family: 'Montserrat', sans-serif;
@@ -82,7 +82,7 @@
     /* =======================================max-width: 375==================================*/
     /* =======================================max-width: 360==================================*/
     @media (max-width: 360px) {
-        h1{
+        div.title{
             color: #000000;
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;
@@ -102,7 +102,7 @@
     /* =======================================max-width: 320==================================*/
     @media (max-width: 320px) {
 
-        h1{
+        div.title{
             color: #000000;
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;

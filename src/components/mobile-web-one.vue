@@ -12,7 +12,7 @@
 </script>
 
 <style scoped>
-    h1 {
+    h1{
         color: #ff9000;
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;

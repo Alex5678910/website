@@ -1,9 +1,9 @@
 <template>
     <div class="container">
         <div class="main">
-            <h1>Digital development</h1>
-            <h2>Разработка CRM-систем<br>
-                для вашего бизнеса</h2>
+            <div class="title">Digital development</div>
+            <h1>Разработка CRM-систем<br>
+                для вашего бизнеса</h1>
         </div>
         <div class="main-two">
             <div class="main-three">
@@ -58,7 +58,7 @@
         justify-content: center;
     }
 
-    h1 {
+    div.title {
         font-size: 20px;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
@@ -68,7 +68,7 @@
         margin: 0 18%;
     }
 
-    h2 {
+    h1 {
         font-size: 20px;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
@@ -96,7 +96,7 @@
     /* =======================================max-width: 320px==================================*/
     @media (max-width: 320px) {
 
-        h1 {
+        div.title {
             font-size: 15px;
             text-align: left;
             font-family: 'Montserrat', sans-serif;
@@ -106,7 +106,7 @@
             margin: 0 18%;
         }
 
-        h2 {
+        h1 {
             font-size: 15px;
             text-align: left;
             font-family: 'Montserrat', sans-serif;

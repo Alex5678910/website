@@ -3,7 +3,7 @@
         <div class="crm-wrapper">
             <div class="anchor">digital.studio</div>
             <div class="left-wrapper">
-                <div class="title">CRM для оптимизации склада</div>
+                <h1>CRM для оптимизации склада</h1>
                 <div class="subtitle-block">
                     <div class="left-block">
                         <div class="image-wrapper"></div>
@@ -86,14 +86,14 @@
         width: 100%;
         position: relative;
     }
-    .crm-wrapper .title {
+    .crm-wrapper h1 {
         font-size: 45px;
         font-weight: 900;
         color: #fff;
         line-height: 55px;
         text-align: end;
     }
-    .title {
+    h1 {
         padding-top: 50px;
         padding-right: 127px;
     }
@@ -232,7 +232,7 @@
         .sub-crm-wrapper div.text {padding: 50px 110px;}
         div.right-wrapper::before, div.right-wrapper, div.crm-wrapper {height: 768px;}
         div.right-wrapper::after {bottom: 35px;width: 600px;height: 420px;}
-        div.title{padding-right: 0;font-size: 40px;}
+        h1{padding-right: 0;font-size: 40px;}
         .sub-crm-wrapper div.text{font-size: 26px;padding: 50px 155px;}
     }
     @media all and (max-width:1024px) {
@@ -241,7 +241,7 @@
         .sub-crm-wrapper div.text {padding: 50px 110px;}
         div.right-wrapper::before, div.right-wrapper, div.crm-wrapper {height: 768px;}
         div.right-wrapper::after {bottom: 35px;width: 555px;height: 355px;background-size: contain;}
-        div.crm-wrapper .title{padding-right: 0;font-size: 35px;}
+        div.crm-wrapper h1{padding-right: 0;font-size: 35px;}
         .sub-crm-wrapper div.text{font-size: 26px;padding: 50px 15px;}
         div.middle-item .item-description{font-size: 20px;}
         div.left-block .image-wrapper {margin-left: 50px;}

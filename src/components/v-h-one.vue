@@ -113,6 +113,13 @@
         padding-top: 3%;
     }
 
+    div.title {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 55px;
+        text-align: left;
+        margin: 40px 0;
+    }
     h1 {
         color: white;
         font-family: 'Montserrat', sans-serif;
@@ -204,6 +211,12 @@
             padding-bottom: 5%;
         }
 
+        div.title {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 45px;
+            text-align: left;
+        }
         h1 {
             color: white;
             font-family: 'Montserrat', sans-serif;
@@ -297,6 +310,12 @@
             justify-content: space-around;
             opacity: .8;
 
+        }
+        div.title{
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 37px;
+            text-align: left;
         }
         h1{
             color: white;

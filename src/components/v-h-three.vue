@@ -2,7 +2,7 @@
     <div class="main">
         <div class="container">
             <div class="b-one">
-                <h1>Этапы работ</h1>
+                <div class="title">Этапы работ</div>
                 <div class="items">
                     <div class="scale">
                         <svg class="svg-one" width="56.739" height="339.419" viewBox="0 0 56.739 339.419">
@@ -190,7 +190,7 @@
         display: flex;
     }
 
-    h1 {
+    div.title {
         color: #febdf5;
         font-family: 'Montserrat', sans-serif;
         font-size: 60px;
@@ -283,7 +283,7 @@
             height: 768px;
         }
 
-        h1 {
+        div.title {
             color: #febdf5;
             font-family: 'Montserrat', sans-serif;
             font-size: 49px;
@@ -367,7 +367,7 @@
             line-height: 2.3rem;
             white-space: nowrap;
         }
-        h1 {
+        div.title {
             color: #febdf5;
             font-family: 'Montserrat', sans-serif;
             font-size: 49px;
@@ -391,7 +391,7 @@
             line-height: 1.3rem;
             white-space: nowrap;
         }
-        h1{
+        div.title{
             color: #febdf5;
             font-family: 'Montserrat', sans-serif;
             font-size: 35px;

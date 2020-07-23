@@ -1,10 +1,10 @@
 <template>
     <div class="container">
         <div class="header">
-            <h1 class="animate__animated animate__bounceInUp"><span class="text animate__animated animate__headShake">WebKiwi</span><br>
+            <h2 class="animate__animated animate__bounceInUp"><span class="text animate__animated animate__headShake">WebKiwi</span><br>
                 STUDIO
-            </h1>
-            <h2 class="animate__animated animate__bounceInUp">-Услуги по digital разработке</h2>
+            </h2>
+            <h1 class="animate__animated animate__bounceInUp">-Услуги по digital разработке</h1>
         </div>
         <div class="romb-3">
             <img src="../assets/img/romb1.png" alt="">
@@ -32,7 +32,7 @@
         margin-left: 4%;
     }
 
-    h2{
+    h1{
         font-size: 375%;
         text-align: right;
         color: aliceblue;
@@ -54,7 +54,7 @@
         box-sizing: border-box;
     }
 
-    h1 {
+    h2 {
         font-family: Montserrat, sans-serif;
         font-size: 740%;
         font-weight: 400;
@@ -76,7 +76,7 @@
         .romb-3 img{
             margin-top: -7%;
         }
-        h1 {
+        h2 {
             font-family: Montserrat, sans-serif;
             font-size: 436%;
             font-weight: 400;
@@ -86,7 +86,7 @@
             padding-left: 9%;
             margin-top: 0;
         }
-        h2 {
+        h1 {
             font-size: 253%;
             text-align: right;
             color: aliceblue;
@@ -116,7 +116,7 @@
             margin-top: -7%;
         }
 
-        h1{
+        h2{
             font-family: Montserrat, sans-serif;
             font-size: 540%;
             font-weight: 400;
@@ -144,7 +144,7 @@
     /*====================================================max-width: 1025px========================================*/
 
     @media (max-width: 1024px) {
-        h2{
+        h1{
             font-size: 186%;
             text-align: right;
             color: aliceblue;

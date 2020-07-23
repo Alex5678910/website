@@ -100,7 +100,7 @@
             </div>
 
             <div class="seven">
-                <h1>7 причин</h1>
+                <div class="title">7 причин</div>
                 <ul>
                     <li>-Повышение продаж</li>
                     <li>-Отвязка от конкурентов</li>
@@ -180,11 +180,12 @@
         color: #707070;
     }
 
-    h1 {
+    div.title {
         color: #5A1212;
         font-family: 'Montserrat', sans-serif;
         font-size: 60px;
         text-align: center;
+        margin: 40px 0;
     }
 
     .seven ul li {
@@ -310,11 +311,12 @@
             left: 52%;
         }
 
-        h1 {
+        div.title {
             color: #5A1212;
             font-family: 'Montserrat', sans-serif;
             font-size: 53px;
             text-align: center;
+            margin: 40px 0;
         }
 
         .seven ul li {
@@ -346,11 +348,12 @@
             left: 52%;
         }
 
-        h1 {
+        div.title {
             color: #5A1212;
             font-family: 'Montserrat', sans-serif;
             font-size: 38px;
             text-align: center;
+            margin: 40px 0;
         }
 
         .seven ul li {

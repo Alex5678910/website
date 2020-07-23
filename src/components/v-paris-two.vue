@@ -4,9 +4,9 @@
             <img src="../assets/img/m2.png" alt="">
         </div>
         <div class="text">
-            <h1>Создадим CRM систему для<br>
+            <div class="title">Создадим CRM систему для<br>
                 оптимизации вашего<br>
-                бизнеса</h1>
+                бизнеса</div>
             <hr>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
@@ -44,12 +44,13 @@
         right: 16%;
     }
 
-    h1 {
+    div.title {
         color: aliceblue;
         font-weight: bold;
         font-family: 'Montserrat Alternates', sans-serif;
         text-align: right;
         font-size: 312%;
+        margin: 40px 0;
     }
 
     .main {
@@ -110,7 +111,7 @@
             width: 40rem;
         }
 
-        h1 {
+        div.title {
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -140,7 +141,7 @@
             display: none;
         }
 
-        h1 {
+        div.title {
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -189,7 +190,7 @@
             background-repeat: no-repeat;
             position: relative;
         }
-        h1{
+        div.title{
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;

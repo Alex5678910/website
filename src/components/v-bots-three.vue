@@ -1,7 +1,7 @@
 <template>
     <div class="main-menu">
     <div class="main">
-        <h1>Возможные функции</h1>
+        <div class="title">Возможные функции</div>
         <div class="container">
         <div class="container-one">
             <div class="block-one">
@@ -239,7 +239,7 @@
         padding-left: 2rem;
     }
 
-    h1 {
+    div.title {
         color: #0d0e23;
         font-family: 'Montserrat', sans-serif;
         font-size: 40px;
@@ -284,7 +284,7 @@
             height: 1512px;
             width: 100%;
         }
-        h1{
+        div.title{
             color: #0d0e23;
             font-family: 'Montserrat', sans-serif;
             font-size: 40px;
@@ -334,7 +334,7 @@
             height: 1261px;
             width: 100%;
         }
-        h1{
+        div.title{
             color: #0d0e23;
             font-family: 'Montserrat', sans-serif;
             font-size: 40px;

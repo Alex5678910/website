@@ -11,8 +11,8 @@
                     конкурентное преимущество.</h2>
             </div>
             <div class="block-two padding">
-                <h1>Обеспечивают сервисное<br>
-                    обслуживание 24/7</h1>
+                <div class="title">Обеспечивают сервисное<br>
+                    обслуживание 24/7</div>
                 <h2>Компании могут отвечать на вопросы<br>
                     клиентов независимо от времени суток,<br>
                     а это повышает качество обслуживания и<br>
@@ -59,6 +59,13 @@
         padding-left: 9%;
         padding-top: 11%;
     }
+    div.title{
+        color: #0d0e23;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        text-align: left;
+        margin: 0;
+    }
     h1{
         color: #0d0e23;
         font-family: 'Montserrat', sans-serif;
@@ -92,6 +99,14 @@
     /* =======================================min-width: 414px==================================*/
     /* =======================================min-width: 360px==================================*/
     @media (max-width: 360px) {
+        div.title {
+            color: #0d0e23;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 17px;
+            text-align: left;
+            margin: 0;
+            padding-top: 6%;
+        }
         h1 {
             color: #0d0e23;
             font-family: 'Montserrat', sans-serif;

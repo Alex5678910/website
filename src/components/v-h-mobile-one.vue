@@ -57,6 +57,7 @@
         font-family: 'Montserrat', sans-serif;
         color: white;
         text-align: left;
+        margin: 40px 0;
     }
     h2{
         font-size: 82%;

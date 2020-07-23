@@ -3,7 +3,7 @@
         <div class="fixed">
             <img src="../assets/mobail/list.png" alt="" class="list" @click="openSlide">
         </div>
-        <h1>7 причин</h1>
+        <div class="title">7 причин</div>
         <ul>
             <li>Повышение продаж</li>
             <li>Отвязка от конкурентов</li>
@@ -125,10 +125,11 @@
         list-style: none;
     }
 
-    h1 {
+    div.title {
         font-size: 30px;
         color: #5a1212;
         font-family: 'Montserrat', sans-serif;
+        margin: 40px 0;
     }
 
     /* =======================================min-width: 414px==================================*/

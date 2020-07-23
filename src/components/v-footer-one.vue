@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <h1>Хотите сделать проект?</h1>
+        <div class="title">Хотите сделать проект?</div>
         <small>Давайте обсудим. Подумаем. И сделаем!</small>
         <form
                 accept-charset="UTF-8"
@@ -113,7 +113,7 @@
 
     }
 
-    h1, small, img {
+    div.title, small, img {
         margin-left: 8.5rem;
         font-family: 'Montserrat', sans-serif;
     }
@@ -123,7 +123,7 @@
         font-family: 'Montserrat Alternates', sans-serif;
     }
 
-    h1 {
+    div.title {
         font-size: 50px;
         font-family: 'Montserrat Alternates', sans-serif;
     }
@@ -198,7 +198,7 @@
             font-size: 1.7rem;
         }
 
-        h1, small, img {
+        div.title, small, img {
             margin-left: 16%;
         }
     }
@@ -220,14 +220,14 @@
         .input {
             font-size: 1.7rem;
         }
-        h1{
+        div.title{
             font-size: 47px;
         }
     }
 
     /*====================================================max-width: 414========================================*/
     @media (max-width: 414px) {
-        h1, small, img {
+        div.title, small, img {
             margin-left: 16%;
         }
         label{
@@ -254,7 +254,7 @@
             padding-right: 0;
         }
 
-        .footer h1 {
+        .footer div.title {
             font-size: 18px;
             font-family: 'Montserrat Alternates', sans-serif;
             margin-left: 0;
@@ -317,12 +317,12 @@
             padding-right: 0;
         }
 
-        h1 {
+        div.title {
             font-size: 18px;
             font-family: 'Montserrat Alternates', sans-serif;
         }
 
-        h1, small, img {
+        div.title, small, img {
             margin-left: 0;
         }
 

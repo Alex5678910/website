@@ -1,8 +1,8 @@
 <template>
     <div class="containers">
         <div class="container">
-            <h1>Создадим сайт<br>
-                для вашей компании</h1>
+            <div class="title">Создадим сайт<br>
+                для вашей компании</div>
             <h2>Наша продуманная работа поможет<br>
                 представить вам свой контент в самом<br>
                 выгодном свете</h2>
@@ -47,7 +47,7 @@
     }
 
 
-    h1 {
+    div.title {
         text-align: left;
         font-size: 20px;
         color: #FFFFFF;

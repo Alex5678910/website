@@ -1,8 +1,8 @@
 <template>
     <div class="main">
         <div class="text">
-            <h1>Разработаем<br>
-                мобильное приложение</h1>
+            <div class="title">Разработаем<br>
+                мобильное приложение</div>
             <hr>
             <h2>Дайте вашим клиентам возможность<br>
                 пользоваться вашими услугами прямо с<br>
@@ -64,7 +64,7 @@
         font-size: 152%;
     }
 
-    h1 {
+    div.title {
         color: aliceblue;
         font-weight: bold;
         font-family: 'Montserrat Alternates', sans-serif;
@@ -72,6 +72,7 @@
         text-align: left;
         padding-left: 10rem;
         font-size: 349%;
+        margin: 40px 0;
     }
 
     hr {
@@ -100,7 +101,7 @@
             margin-left: 0;
         }
 
-        h1{
+        div.title{
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -141,7 +142,7 @@
             display: none;
         }
 
-        h1{
+        div.title{
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -167,7 +168,7 @@
             font-size: 225%;
             font-family: 'Montserrat Alternates', sans-serif;
         }
-        h1{
+        div.title{
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;

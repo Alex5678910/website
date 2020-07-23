@@ -54,7 +54,7 @@
         justify-content: center;
     }
 
-    h1 {
+    div.title {
         font-size: 20px;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
@@ -88,7 +88,7 @@
     /* =======================================max-width: 320px==================================*/
     @media (max-width: 320px) {
 
-        h1 {
+        div.title {
             font-size: 15px;
             text-align: left;
             font-family: 'Montserrat', sans-serif;

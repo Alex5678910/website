@@ -31,7 +31,24 @@
             VCrmThree,
             VCrmMobileFour,
             VCrmMobileThree,
-            VCrmMobileTwo, VCrmMobileOne, MobileHeader, VFooterTwo, VFooterOne, VCrmTwo, VCrmOne},
+            VCrmMobileTwo, VCrmMobileOne, MobileHeader, VFooterTwo, VFooterOne, VCrmTwo, VCrmOne
+        },
+        metaInfo: {
+            title: 'компонент CRM',
+            titleTemplate: '%s | vue-meta Example App',
+            htmlAttrs: {
+            reptilian: 'gator'
+            },
+            headAttrs: {
+            nest: 'eggs'
+            },
+            meta: [
+            { charset: 'utf-8' },
+            { name: 'description', content: 'gator' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+            ]
+        },
+
     }
 </script>
 

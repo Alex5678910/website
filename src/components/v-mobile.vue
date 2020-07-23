@@ -27,7 +27,23 @@
         name: "v-mobile",
         components: {
             VHMobileThree,
-            VHMobileTwo, MobileHeader, VHMobileOne, VFooterTwo, VFooterOne, VHThree, VHTwo, VHOne}
+            VHMobileTwo, MobileHeader, VHMobileOne, VFooterTwo, VFooterOne, VHThree, VHTwo, VHOne
+        },
+        metaInfo: {
+            title: 'компонент Мобильные приложения',
+            titleTemplate: '%s | vue-meta Example App',
+            htmlAttrs: {
+            reptilian: 'gator'
+            },
+            headAttrs: {
+            nest: 'eggs'
+            },
+            meta: [
+            { charset: 'utf-8' },
+            { name: 'description', content: 'gator' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+            ]
+        },
     }
 </script>
 

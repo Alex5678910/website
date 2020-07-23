@@ -130,7 +130,7 @@
         svg.svg-two{
             height: 409px;
         }
-        h1 {
+        div.title {
             font-size: 335%;
             color: #ffbe6a;
             text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -198,7 +198,7 @@
         svg.svg-two{
             height: 409px;
         }
-        h1[data-v-7a9835a2] {
+        div.title[data-v-7a9835a2] {
             font-size: 235%;
             color: #ffbe6a;
             text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;

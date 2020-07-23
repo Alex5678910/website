@@ -27,7 +27,23 @@
         name: "v-bots",
         components: {
             VBotsMobileThree,
-            VBotsMobileTwo, VBotsMobile, MobileHeader, VBotsThree, VBotsTwo, VFooterTwo, VFooterOne, VBotsOne}
+            VBotsMobileTwo, VBotsMobile, MobileHeader, VBotsThree, VBotsTwo, VFooterTwo, VFooterOne, VBotsOne
+        },
+        metaInfo: {
+            title: 'компонент Боты',
+            titleTemplate: '%s | vue-meta Example App',
+            htmlAttrs: {
+            reptilian: 'gator'
+            },
+            headAttrs: {
+            nest: 'eggs'
+            },
+            meta: [
+            { charset: 'utf-8' },
+            { name: 'description', content: 'gator' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+            ]
+        },
     }
 </script>
 

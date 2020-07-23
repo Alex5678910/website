@@ -2,8 +2,8 @@
     <div class="container">
         <div class="dream">
             <div class="img-two">
-                <h1>Вашим планам суждено<br>
-                    сбыться</h1>
+                <div class="title">Вашим планам суждено<br>
+                    сбыться</div>
                 <h2>02</h2>
             </div>
             <div class="container-two">
@@ -19,22 +19,22 @@
                 </div>
 
                 <div class="text-five">
-                    <h1>Проекты и задачи</h1>
+                    <div class="title">Проекты и задачи</div>
                     <div>Работа команды над задачами<br>
                         как на ладони: сроки, цели, проблемы,<br>
                         решения. Управляйте рисками!
                     </div>
-                    <h1>Продажи</h1>
+                    <div class="title">Продажи</div>
                     <div>Единая база клиентов, статусы заявок и<br>
                         результаты менеджеров в воронке продаж.<br>
                         Оценивайте потенциал!
                     </div>
-                    <h1>Коммуникации</h1>
+                    <div class="title">Коммуникации</div>
                     <div>Общение внутри команды и с клиентами<br>
                         в едином чате. Используйте удобный<br>
                         формат: текст или аудио!
                     </div>
-                    <h1>Интеграции</h1>
+                    <div class="title">Интеграции</div>
                     <div>Подключение дополнительных программ<br>
                         и сервисов без помощи программиста.<br>
                         Расширяйте свои возможности!
@@ -130,7 +130,9 @@
 </script>
 
 <style scoped>
-
+    div.title {
+        margin: 40px 0;
+    }
     .right-block {
         display: flex;
     }
@@ -164,7 +166,7 @@
         display: flex;
     }
 
-    .text-five h1 {
+    .text-five div.title {
         color: #ABABAB;
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
@@ -238,7 +240,7 @@
         padding-left: 27%;
     }
 
-    .img-two h1 {
+    .img-two div.title {
         color: #ffd2d2;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
@@ -282,7 +284,7 @@
         z-index: 20;
     }
 
-    h1 {
+    div.title {
         font-size: 40px;
         text-align: left;
         font-family: 'Montserrat', sans-serif;
@@ -337,7 +339,7 @@
             margin-left: -2rem;
         }
 
-        .img-two h1 {
+        .img-two div.title {
             color: #ffd2d2;
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
@@ -421,7 +423,7 @@
             padding-left: 0%;
         }
 
-        .img-two h1 {
+        .img-two div.title {
             color: #ffd2d2;
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;

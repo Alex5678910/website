@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <h1>Возможные области<br>
-            применения ботов</h1>
+        <div class="title">Возможные области<br>
+            применения ботов</div>
         <div class="grid">
 
             <div class="card">
@@ -125,7 +125,7 @@
         align-items: flex-start;
         justify-content: flex-start;
     }
-    h1 {
+    div.title {
         color: #0d0e23;
         font-family: 'Montserrat', sans-serif;
         font-size: 22px;

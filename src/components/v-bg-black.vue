@@ -1,7 +1,7 @@
 <template>
     <div class="bg">
-        <h1>Индивидуальный подход<br>
-            к каждому заказчику.</h1>
+        <div class="title">Индивидуальный подход<br>
+            к каждому заказчику.</div>
     </div>
 </template>
 
@@ -21,7 +21,7 @@
         background-size: cover;
     }
 
-    h1 {
+    div.title {
         color: aliceblue;
         vertical-align: middle;
         font-family: 'Montserrat',sans-serif;
@@ -59,7 +59,7 @@
             height: 30rem;
         }
 
-        h1 {
+        div.title {
             color: aliceblue;
             font-family: 'Montserrat',sans-serif;
             font-size: 316%;

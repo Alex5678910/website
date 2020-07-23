@@ -67,6 +67,21 @@
             VParis,
             VHeaderTwo
         },
+        metaInfo: {
+            title: 'Разработка профессиональных сайтов и приложений в Тольятти',
+            titleTemplate: '%s',
+            htmlAttrs: {
+            reptilian: 'gator'
+            },
+            headAttrs: {
+            nest: 'eggs'
+            },
+            meta: [
+            { charset: 'utf-8' },
+            { name: 'description', content: 'Разрабатываем сайты лендинги, адаптивные, копроративные для вашего бизнеса Тольятти. Разработка приложений на android и ios. Делаем CRM системы. SEO и SMM продвижение' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+            ]
+        },
     }
 </script>
 

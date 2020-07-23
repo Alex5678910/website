@@ -1,9 +1,9 @@
 <template>
     <div class="containers">
         <div class="container">
-            <h1>Создадим CRM систему<br>
+            <div class="title">Создадим CRM систему<br>
                 для оптимизации<br>
-                вашего бизнеса</h1>
+                вашего бизнеса</div>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
             <img src="../assets/mobail/list.png" alt="" class="list" @click="openSlide">
@@ -56,7 +56,7 @@
         justify-content: center;
     }
 
-    h1 {
+    div.title {
         text-align: right;
         font-size: 20px;
         color: #FFFFFF;

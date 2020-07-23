@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <h1>Почему стоит выбирать
-            именно нас</h1>
+        <div class="title">Почему стоит выбирать
+            именно нас</div>
         <img src="../assets/mobail/x1.png" alt="">
         <p>Мы анализируем рынок. Проводим
             Аналитику исследование конкурентов и
@@ -44,7 +44,7 @@
         padding: 2%
     }
 
-    h1 {
+    div.title {
         color: #E1E1E1;
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 20px;

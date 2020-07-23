@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <h1>Зачем вашему<br>
-            бизнесу нужен сайт?</h1>
+        <div class="title">Зачем вашему<br>
+            бизнесу нужен сайт?</div>
         <h2>С развитием технологий весь поток<br>
             потенциальных клиентов перешел<br>
             в интернет. Можно предлагать свои<br>
@@ -52,7 +52,7 @@
         justify-content: space-around;
     }
 
-    h1{
+    div.title{
         color: #000000;
         font-size: 23px;
         font-family: 'Montserrat', sans-serif;
@@ -91,7 +91,7 @@
     /* =======================================min-width: 360==================================*/
     @media (max-width: 360px) {
 
-        h1{
+        div.title{
             color: #000000;
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;
@@ -107,7 +107,7 @@
     /* =======================================min-width: 320==================================*/
     @media (max-width: 320px) {
 
-        h1{
+        div.title{
             color: #000000;
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;

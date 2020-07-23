@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <h1>Вашим планам суждено<br>
-            сбыться</h1>
+        <div class="title">Вашим планам суждено<br>
+            сбыться</div>
         <div id="grid" class="grid">
 
             <div class="grid__item">
@@ -70,7 +70,7 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
     }
-    h1{
+    div.title{
         color: #FFD2D2;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <h1>Почему стоит<br>
-            выбирать именно нас?</h1>
+        <div class="title">Почему стоит<br>
+            выбирать именно нас?</div>
         <div class="grid">
 
             <div class="grid__item"><img src="../assets/img/r01.png" alt="" class="one"></div>
@@ -225,12 +225,13 @@
     .grid__item.item{
         margin-top: -2rem;
     }
-    h1 {
+    div.title {
         margin-top: 0;
         color: aliceblue;
         font-family: 'Montserrat Alternates', sans-serif;
         padding-top: 11rem;
         font-size: 50px;
+        margin-bottom: 40px;
     }
 
     p{

@@ -1,8 +1,8 @@
 <template>
     <div class="bg">
-        <h1>Автоматизируйте свой<br>
+        <div class="title">Автоматизируйте свой<br>
             рабочий процесс<br>
-            вместе с нами</h1>
+            вместе с нами</div>
     </div>
 </template>
 
@@ -26,7 +26,7 @@
 
     }
 
-    h1 {
+    div.title {
         color: aliceblue;
         vertical-align: middle;
         font-family: 'Montserrat', sans-serif;
@@ -42,7 +42,7 @@
                 1px  1px 0 #000;
     }
     @media (max-width: 1024px) {
-        h1 {
+        div.title {
             color: aliceblue;
             font-family: 'Montserrat', sans-serif;
             font-size: 50px;
@@ -54,7 +54,7 @@
 
     @media (max-width: 768px) {
 
-        h1 {
+        div.title {
             color: aliceblue;
             font-family: 'Montserrat', sans-serif;
             font-size: 50px;

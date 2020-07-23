@@ -35,7 +35,23 @@
             MobileWebFour,
             MobileWebThree,
             MobileWebTwo,
-            MobileWebOne, MobileHeader, VFour, VSmallSquare, VThree, VTwo, VFooterTwo, VFooterOne, VOne},
+            MobileWebOne, MobileHeader, VFour, VSmallSquare, VThree, VTwo, VFooterTwo, VFooterOne, VOne
+        },
+        metaInfo: {
+            title: 'компонент product',
+            titleTemplate: '%s | vue-meta Example App',
+            htmlAttrs: {
+            reptilian: 'gator'
+            },
+            headAttrs: {
+            nest: 'eggs'
+            },
+            meta: [
+            { charset: 'utf-8' },
+            { name: 'description', content: 'gator' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+            ]
+        },
     }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Этапы работ</h1>
+        <div class="title">Этапы работ</div>
         <div class="main">
             <div id="grid" class="grid">
 
@@ -238,13 +238,14 @@
 
     }
 
-    h1 {
+    div.title {
         color: black;
         font-weight: bold;
         font-family: 'Montserrat Alternates', sans-serif;
         text-align: center;
         font-size: 60px;
         padding-top: 10rem;
+        margin: 40px 0;
     }
 
     p {
@@ -258,13 +259,14 @@
             transform: scale(.9);
         }
 
-        h1 {
+        div.title {
             color: black;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
             text-align: center;
             font-size: 46px;
             padding-top: 3rem;
+            margin: 40px 0;
         }
 
         .grid__item:nth-child(17) {
@@ -336,7 +338,7 @@
             height: 591px;
         }
 
-        h1 {
+        div.title {
             color: black;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -368,7 +370,7 @@
             height: 500px;
         }
 
-        h1 {
+        div.title {
             color: black;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;

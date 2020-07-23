@@ -1,7 +1,7 @@
 <template>
         <div class="container">
-            <h1>Разработаем<br>
-                мобильное приложение</h1>
+            <div class="title">Разработаем<br>
+                мобильное приложение</div>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
         </div>
@@ -29,7 +29,7 @@
         justify-content: center;
     }
 
-    h1 {
+    div.title {
         text-align: left;
         font-size: 20px;
         color: #FFFFFF;

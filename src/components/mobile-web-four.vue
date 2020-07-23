@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Этапы работ</h1>
+        <div class="title">Этапы работ</div>
         <div id="grid" class="grid">
 
             <div class="grid__item">
@@ -131,7 +131,7 @@
 </script>
 
 <style scoped>
-    h1{
+    div.title{
         font-family: 'Montserrat', sans-serif;
     }
     .images{
