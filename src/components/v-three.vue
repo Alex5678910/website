@@ -1,7 +1,7 @@
 <template>
     <div class="main">
         <div class="left">
-            <img src="../assets/images/comp-two.png" alt="">
+            <img src="../assets/images/webp/comp-two.webp" alt="pic">
             <svg width="842.645" height="575" viewBox="0 0 842.645 575" class="one-svg">
                 <path id="Path_58" data-name="Path 58" d="M3596.635,2041v565H2763.99"
                       transform="translate(-2763.99 -2041)" fill="none" stroke="#00b5e3" stroke-linejoin="round"

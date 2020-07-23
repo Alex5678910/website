@@ -264,6 +264,7 @@
         margin: 0;
         padding-top: 7%;
         padding-bottom: 7%;
+        font-weight: 700;
     }
 
     .container {
@@ -355,6 +356,7 @@
             margin: 0;
             padding-top: 7%;
             padding-bottom: 0;
+            font-weight: 700;
         }
         .grid{
             transform: scale(.8);
@@ -398,6 +400,7 @@
             margin: 0;
             padding-top: 7%;
             padding-bottom: 0;
+            font-weight: 700;
         }
         .grid{
             transform: scale(.5);

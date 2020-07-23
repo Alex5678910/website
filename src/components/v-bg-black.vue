@@ -13,7 +13,7 @@
 
 <style scoped>
     .bg {
-        background-image: url(../assets/img/bg3.png);
+        background-image: url(../assets/img/webp/bg3.webp);
         background-attachment: fixed;
         background-position: center;
         height: 50rem;

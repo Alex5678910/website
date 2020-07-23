@@ -5,7 +5,7 @@
         <div id="grid" class="grid">
 
             <div class="grid__item">
-                <img src="../assets/images/iv1.png" alt="" class="icon">
+                <img src="../assets/images/iv1.png" alt="pic" class="icon">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -19,7 +19,7 @@
             </div>
 
             <div class="grid__item">
-                <img src="../assets/images/iv2.png" alt="" class="icon">
+                <img src="../assets/images/iv2.png" alt="pic" class="icon">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -33,7 +33,7 @@
             </div>
 
             <div class="grid__item">
-                <img src="../assets/images/iv3.png" alt="" class="icon">
+                <img src="../assets/images/iv3.png" alt="pic" class="icon">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -47,7 +47,7 @@
             </div>
 
             <div class="grid__item">
-                <img src="../assets/images/iv4.png" alt="" class="icon">
+                <img src="../assets/images/iv4.png" alt="pic" class="icon">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -78,7 +78,7 @@
         margin: 0;
     }
     .container{
-        background-image: url(../assets/mobail/crm-b.png);
+        background-image: url(../assets/mobail/webp/crm-b.webp);
         max-width: 414px;
         height: 587px;
     }

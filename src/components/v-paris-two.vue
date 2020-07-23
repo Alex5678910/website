@@ -1,7 +1,7 @@
 <template>
     <div class="main">
         <div class="images">
-            <img src="../assets/img/m2.png" alt="">
+            <img src="../assets/img/webp/m2.webp" alt="pic">
         </div>
         <div class="text">
             <div class="title">Создадим CRM систему для<br>
@@ -54,7 +54,7 @@
     }
 
     .main {
-        background-image: url(../assets/img/bg4.png);
+        background-image: url(../assets/img/webp/bg4.webp);
         background-attachment: fixed;
         background-position: center;
         height: 915px;

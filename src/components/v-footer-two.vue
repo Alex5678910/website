@@ -1,8 +1,8 @@
 <template>
     <div class="footer">
         <div class="img">
-            <img src="../assets/img/phone.png" alt="">
-            <img src="../assets/img/mail.png" alt="">
+            <img src="../assets/img/phone.png" alt="pic">
+            <img src="../assets/img/mail.png" alt="pic">
         </div>
         <div class="contact">
             <a href="tel: 7(927)-770-77-75">+7(927)-770-77-75</a>

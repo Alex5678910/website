@@ -29,7 +29,7 @@
     }
 
     .container {
-        background-image: url(../assets/mobail/web-bg-one.png);
+        background-image: url(../assets/mobail/webp/web-bg-one.webp);
         max-width: 414px;
         height: 193px;
         margin-top: -5%;

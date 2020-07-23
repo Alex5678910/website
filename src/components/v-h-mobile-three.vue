@@ -22,7 +22,7 @@
         <div class="cont-two">
 
         <div class="studio">kiwi.studio</div>
-        <img src="../assets/mobail/ifon-six.png" alt="" class="ifon">
+        <img src="../assets/mobail/webp/ifon-six.webp" alt="pic" class="ifon">
         <div class="number">03</div>
         </div>
     </div>

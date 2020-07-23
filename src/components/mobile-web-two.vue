@@ -16,7 +16,7 @@
             А так же в дальнейшем его продвижении<br>
             и обслуживании.</h2>
         <div class="icon">
-        <img src="../assets/mobail/mobile-monitor-one.png" alt="" class="monitor">
+        <img src="../assets/mobail/webp/mobile-monitor-one.webp" alt="pic" class="monitor">
             <img src="../assets/mobail/list.png" alt="" class="list" @click="openSlide">
         </div>
     </div>
@@ -34,9 +34,6 @@
 </script>
 
 <style scoped>
-    .monitor{
-
-    }
     .list{
         position: fixed;
     }
@@ -59,6 +56,7 @@
         margin: 0;
         align-self: baseline;
         padding-left: 18%;
+        font-weight: 700;
     }
 
     h2{
@@ -98,6 +96,7 @@
             margin: 0;
             align-self: baseline;
             padding-left: 10%;
+            font-weight: 700;
         }
         h2{
             font-size: 14px;
@@ -114,6 +113,7 @@
             margin: 0;
             align-self: baseline;
             padding-left: 10%;
+            font-weight: 700;
         }
         h2{
             font-size: 13px;

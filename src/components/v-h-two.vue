@@ -3,13 +3,13 @@
         <div class="container">
             <div class="grid">
                 <div class="grid__item">
-                    <img src="../assets/images/t1.png" alt="">
+                    <img src="../assets/images/webp/t1.webp" alt="pic">
                 </div>
                 <div class="grid__item">
-                    <img src="../assets/images/t2.png" alt="">
+                    <img src="../assets/images/webp/t2.webp" alt="pic">
                 </div>
                 <div class="grid__item">
-                    <img src="../assets/images/t3.png" alt="">
+                    <img src="../assets/images/webp/t3.webp" alt="pic">
                 </div>
             </div>
             <div class="circles">
@@ -186,6 +186,7 @@
         font-size: 60px;
         text-align: center;
         margin: 40px 0;
+        font-weight: 700;
     }
 
     .seven ul li {
@@ -317,6 +318,7 @@
             font-size: 53px;
             text-align: center;
             margin: 40px 0;
+            font-weight: 700;
         }
 
         .seven ul li {
@@ -354,6 +356,7 @@
             font-size: 38px;
             text-align: center;
             margin: 40px 0;
+            font-weight: 700;
         }
 
         .seven ul li {

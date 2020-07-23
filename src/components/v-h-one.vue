@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="container-two">
-            <img src="../assets/images/iPhone-XS.png" alt="">
+            <img src="../assets/images/webp/iPhone-XS.webp" alt="pic">
             <div class="rectangle">
                 <div class="text">Привлекательный<br>
                     &nbsp;<span>внешний вид</span>
@@ -119,6 +119,7 @@
         font-size: 55px;
         text-align: left;
         margin: 40px 0;
+        font-weight: 700;
     }
     h1 {
         color: white;
@@ -136,7 +137,7 @@
     }
 
     .container {
-        background-image: url(../assets/images/bg31.png);
+        background-image: url(../assets/images/webp/bg31.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -216,6 +217,7 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 45px;
             text-align: left;
+            font-weight: 700;
         }
         h1 {
             color: white;
@@ -316,6 +318,7 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 37px;
             text-align: left;
+            font-weight: 700;
         }
         h1{
             color: white;

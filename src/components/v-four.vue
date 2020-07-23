@@ -12,7 +12,7 @@
                 </div>
 
                 <div class="grid__item">
-                    <div><img class="fl" src="../assets/images/ic1.png" alt=""></div>
+                    <div><img class="fl" src="../assets/images/ic1.png" alt="pic"></div>
                     <div><p>Постановка целей<br>
                         и задач сайта</p></div>
                 </div>
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="grid__item">
-                    <div><img class="fl" src="../assets/images/ic2.png" alt=""></div>
+                    <div><img class="fl" src="../assets/images/ic2.png" alt="pic"></div>
                     <div><p>Создание и проработка<br>
                         технического задания</p></div>
                 </div>
@@ -38,7 +38,7 @@
                 </div>
 
                 <div class="grid__item">
-                    <div><img class="fl" src="../assets/images/ic3.png" alt=""></div>
+                    <div><img class="fl" src="../assets/images/ic3.png" alt="pic"></div>
                     <div><p>Прототипирование</p></div>
                 </div>
 
@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="grid__item">
-                    <div><img class="fl" src="../assets/images/ic4.png" alt=""></div>
+                    <div><img class="fl" src="../assets/images/ic4.png" alt="pic"></div>
                     <div><p>Создание макета<br>
                         дизайна сайта</p></div>
                 </div>
@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="grid__item">
-                    <img class="ft" src="../assets/images/ic1.png" alt="">
+                    <img class="ft" src="../assets/images/ic1.png" alt="pic">
                     <p>Тестирование</p>
                 </div>
 
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="grid__item">
-                    <img class="ft" src="../assets/images/ic2.png" alt="">
+                    <img class="ft" src="../assets/images/ic2.png" alt="pic">
                     <p>Наполнение<br>
                         контентом</p>
                 </div>
@@ -97,7 +97,7 @@
                 </div>
 
                 <div class="grid__item">
-                    <img class="ft" src="../assets/images/ic3.png" alt="">
+                    <img class="ft" src="../assets/images/ic3.png" alt="pic">
                     <p>Программирование</p>
                 </div>
 
@@ -110,7 +110,7 @@
 
                 <div class="grid__item">
                     <div>
-                        <img class="ft" src="../assets/images/ic4.png" alt="">
+                        <img class="ft" src="../assets/images/ic4.png" alt="pic">
                         <p>Верстка</p>
                     </div>
                 </div>

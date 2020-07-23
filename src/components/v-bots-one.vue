@@ -56,6 +56,7 @@
         font-size: 35px;
         text-align: right;
         margin: 0;
+        font-weight: 700;
     }
     h1 {
         color: #0d0e23;
@@ -75,7 +76,7 @@
     }
 
     .container {
-        background-image: url(../assets/images/bg-bots.png);
+        background-image: url(../assets/images/webp/bg-bots.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -128,7 +129,7 @@
             text-align: right;
             font-weight: bold;
             padding-right: 16%;
-            padding-top: 9%;
+            padding-top: 5%;
         }
     }
 
@@ -154,6 +155,7 @@
             font-size: 23px;
             text-align: right;
             margin: 0;
+            font-weight: 700;
         }
         h1 {
             color: #0d0e23;

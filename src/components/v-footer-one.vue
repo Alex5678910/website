@@ -126,6 +126,7 @@
     div.title {
         font-size: 50px;
         font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 700;
     }
 
     img {
@@ -222,6 +223,7 @@
         }
         div.title{
             font-size: 47px;
+            font-weight: 700;
         }
     }
 
@@ -259,6 +261,7 @@
             font-family: 'Montserrat Alternates', sans-serif;
             margin-left: 0;
             margin-top: 10%;
+            font-weight: 700;
         }
 
         .footer small {
@@ -320,6 +323,7 @@
         div.title {
             font-size: 18px;
             font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 700;
         }
 
         div.title, small, img {

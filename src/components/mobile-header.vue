@@ -3,7 +3,7 @@
         <div class="container">
             <router-link :to="'/'" tag="a">
                 <div class="header-one">
-                    <img src="../assets/img/logo2.png" alt=""
+                    <img src="../assets/img/logo2.png" alt="webkiwi_logo"
                          class="animate__animated animate__bounce animate__repeat-3">
                     <div class="logo animate__animated animate__bounce">
                         WebKiwi<br>

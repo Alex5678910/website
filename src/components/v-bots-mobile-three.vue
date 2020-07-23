@@ -96,7 +96,7 @@
                 </div>
             </div>
         <div class="block-three">
-           <img src="../assets/images/big-robot.png" alt="">
+           <img src="../assets/images/webp/big-robot.webp" alt="pic">
         </div>
     </div>
 </template>
@@ -228,10 +228,11 @@
         margin: 0;
         padding-top: 21%;
         padding-bottom: 5%;
+        font-weight: 700;
     }
 
     .main {
-        background-image: url(../assets/images/bg-robot.png);
+        background-image: url(../assets/images/webp/bg-robot.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

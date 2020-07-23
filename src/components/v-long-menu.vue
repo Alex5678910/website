@@ -4,7 +4,7 @@
             выбирать именно нас?</div>
         <div class="grid">
 
-            <div class="grid__item"><img src="../assets/img/r01.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r01.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -13,7 +13,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r02.png" alt="" class="two"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r02.webp" alt="pic" class="two"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -22,7 +22,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r03.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r03.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Грамотно настроенный<br>
                 сайт и приложение<br>
@@ -44,7 +44,7 @@
 
             <!--======================================22222==============================================-->
 
-            <div class="grid__item"><img src="../assets/img/r04.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r04.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -53,7 +53,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r05.png" alt="" class="two"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r05.webp" alt="pic" class="two"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -62,7 +62,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r06.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r06.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы анализируем рынок</p></div>
 
@@ -79,7 +79,7 @@
             </div>
             <!--=====================================333=====================================-->
 
-            <div class="grid__item"><img src="../assets/img/r07.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r07.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -88,7 +88,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r08.png" alt="" class="two"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r08.webp" alt="pic" class="two"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -97,7 +97,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r09.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r09.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы нацелены на долгосрочные<br>
                 отношения с заказчиком</p></div>
@@ -114,7 +114,7 @@
                 </svg>
             </div>
             <!--================================4444444444444====================-->
-            <div class="grid__item"><img src="../assets/img/r10.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r10.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -132,7 +132,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r12.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r12.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы консультируем<br>
                 и помогаем разобраться в<br>
@@ -153,7 +153,7 @@
             </div>
             <!--================================55555555555====================-->
 
-            <div class="grid__item"><img src="../assets/img/r13.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r13.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -162,7 +162,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r14.png" alt="" class="two"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r14.webp" alt="pic" class="two"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -171,7 +171,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r15.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r15.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы следим за последними<br>
                 требованиями и трендами
@@ -193,7 +193,7 @@
             </div>
             <!--================================6666666666====================-->
 
-            <div class="grid__item"><img src="../assets/img/r16.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r16.webp" alt="pic" class="one"></div>
 
             <div class="grid__item item">
                 <svg width="184.094" height="3" viewBox="0 0 184.094 3">
@@ -202,7 +202,7 @@
                 </svg>
             </div>
 
-            <div class="grid__item"><img src="../assets/img/r17.png" alt="" class="one"></div>
+            <div class="grid__item"><img src="../assets/img/webp/r17.webp" alt="pic" class="one"></div>
 
             <div class="grid__item"><p>Мы найдем пользу<br>
                 и сделаем проект выгодным
@@ -232,6 +232,7 @@
         padding-top: 11rem;
         font-size: 50px;
         margin-bottom: 40px;
+        font-weight: 700;
     }
 
     p{
@@ -241,7 +242,7 @@
     }
 
     .container {
-        background-image: url(../assets/img/bg7.png);
+        background-image: url(../assets/img/webp/bg7.webp);
         background-attachment: fixed;
         background-position: center;
     }

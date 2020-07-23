@@ -34,6 +34,7 @@
         font-size: 20px;
         color: #FFFFFF;
         font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 700;
     }
 
     h2 {

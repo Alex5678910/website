@@ -10,7 +10,7 @@
             <router-link tag="a" :to="'/good'"><a class="info" @click="openUp()">Подробнее</a></router-link>
         </div>
         <div class="images">
-            <img src="../assets/img/m1.png" alt="">
+            <img src="../assets/img/webp/m1.webp" alt="pic">
         </div>
     </div>
 </template>
@@ -41,7 +41,7 @@
     }
 
     .main {
-        background-image: url(../assets/img/bg2.png);
+        background-image: url(../assets/img/webp/bg2.webp);
         background-attachment: fixed;
         height: 980px;
         display: flex;

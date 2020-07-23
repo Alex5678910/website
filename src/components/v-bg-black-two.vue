@@ -14,7 +14,7 @@
 
 <style scoped>
     .bg {
-        background-image: url(../assets/img/bg5.png);
+        background-image: url(../assets/img/webp/bg5.webp);
         background-attachment: fixed;
         height: auto;
         background-repeat: no-repeat;

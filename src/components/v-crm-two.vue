@@ -9,13 +9,13 @@
             <div class="container-two">
 
                 <div class="icons">
-                    <img src="../assets/images/iv1.png" alt="" class="icon">
-                    <img src="../assets/images/line99.png" alt="" class="line">
-                    <img src="../assets/images/iv2.png" alt="" class="icon">
-                    <img src="../assets/images/line99.png" alt="" class="line">
-                    <img src="../assets/images/iv3.png" alt="" class="icon">
-                    <img src="../assets/images/line99.png" alt="" class="line">
-                    <img src="../assets/images/iv4.png" alt="" class="icon">
+                    <img src="../assets/images/iv1.png" alt="icon" class="icon">
+                    <img src="../assets/images/line99.png" alt="icon" class="line">
+                    <img src="../assets/images/iv2.png" alt="icon" class="icon">
+                    <img src="../assets/images/line99.png" alt="icon" class="line">
+                    <img src="../assets/images/iv3.png" alt="icon" class="icon">
+                    <img src="../assets/images/line99.png" alt="icon" class="line">
+                    <img src="../assets/images/iv4.png" alt="icon" class="icon">
                 </div>
 
                 <div class="text-five">
@@ -111,10 +111,10 @@
                     </div>
 
                     <div class="images-five">
-                        <img src="../assets/images/iy1.png" alt="" class="iy-one">
+                        <img src="../assets/images/webp/iy1.webp" alt="pic" class="iy-one">
                         <div class="direct">
-                            <img src="../assets/images/iy2.png" alt="" class="iy-two">
-                            <img src="../assets/images/iy3.png" alt="" class="iy-three">
+                            <img src="../assets/images/webp/iy2.webp" alt="pic" class="iy-two">
+                            <img src="../assets/images/webp/iy3.webp" alt="pic" class="iy-three">
                         </div>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
     .container {
         margin-top: 0;
         max-width: 100%;
-        background-image: url(../assets/images/bg-crm-three.png);
+        background-image: url(../assets/images/webp/bg-crm-three.webp);
         background-size: cover;
         height: 76rem;
     }
@@ -292,6 +292,7 @@
         margin-top: 0;
         padding-left: 10%;
         padding-top: 4%;
+        font-weight: 700;
     }
 
     h2 {

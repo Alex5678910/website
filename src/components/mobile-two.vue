@@ -39,7 +39,7 @@
     .container {
         max-width: 414px;
         height: 194px;
-        background-image: url(../assets/mobail/mb1.png);
+        background-image: url(../assets/mobail/webp/mb1.webp);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -52,6 +52,7 @@
         font-size: 20px;
         color: #FFFFFF;
         font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 700;
     }
 
     h2 {

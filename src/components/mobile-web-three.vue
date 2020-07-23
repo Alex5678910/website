@@ -22,7 +22,7 @@
             тем самым привлекая в ваш бизнес новых<br>
             клиентов.</h2>
 
-        <img src="../assets/images/comp-two.png" alt="">
+        <img src="../assets/images/webp/comp-two.webp" alt="pic">
 
     </div>
 </template>
@@ -56,6 +56,7 @@
         margin: 0;
         align-self: baseline;
         padding-left: 18%;
+        font-weight: 700;
     }
 
     h2{
@@ -89,6 +90,7 @@
             margin: 0;
             align-self: baseline;
             padding-left: 10%;
+            font-weight: 700;
         }
         h2{
             font-size: 13px;
@@ -109,6 +111,7 @@
             margin: 0;
             align-self: baseline;
             padding-left: 10%;
+            font-weight: 700;
         }
         h2{
             font-size: 12px;

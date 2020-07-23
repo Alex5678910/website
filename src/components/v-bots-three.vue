@@ -247,6 +247,7 @@
         margin: 0;
         padding-top: 5%;
         padding-bottom: 5%;
+        font-weight: 700;
     }
 
     .main {
@@ -292,6 +293,7 @@
             padding-top: 0;
             padding-bottom: 5%;
             margin-top: -9%;
+            font-weight: 700;
         }
         .block-three{
             display: flex;
@@ -342,6 +344,7 @@
             padding-top: 0;
             padding-bottom: 5%;
             margin-top: -31%;
+            font-weight: 700;
         }
         .block-three{
             display: flex;

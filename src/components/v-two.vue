@@ -17,7 +17,7 @@
                 его продвижении и обслуживании.</p>
         </div>
         <div class="right">
-            <img src="../assets/images/computer.png" alt="">
+            <img src="../assets/images/webp/computer.webp" alt="pic">
             <svg width="566" height="364" viewBox="0 0 566 364" class="cls-one">
                 <g id="Rectangle_34" data-name="Rectangle 34" fill="none" stroke="#e0f" stroke-width="2" opacity="0.45">
                     <rect width="566" height="364" rx="15" stroke="none"/>

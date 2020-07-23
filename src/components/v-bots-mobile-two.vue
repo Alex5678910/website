@@ -133,11 +133,12 @@
         margin: 0;
         padding-top: 7%;
         padding-bottom: 7%;
+        font-weight: 700;
     }
     .container {
         max-width: 414px;
         height: 1115px;
-        background-image: url(../assets/images/bg-r-tvo.png);
+        background-image: url(../assets/images/webp/bg-r-tvo.webp);
     }
     .card:nth-child(1) {
         grid-area: a;

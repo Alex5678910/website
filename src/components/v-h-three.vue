@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="b-two">
-                <img src="../assets/images/mob32.png" alt="">
+                <img src="../assets/images/webp/mob32.webp" alt="pic">
                 <svg class="svg-two" width="72.649" height="562.5" viewBox="0 0 72.649 562.5">
                     <g id="Component_46_1" data-name="Component 46 – 1" transform="translate(72.149 562.5) rotate(180)">
                         <path id="Path_62" data-name="Path 62" d="M5163.425,2390.149h141"
@@ -197,6 +197,7 @@
         margin-left: 339px;
         margin-top: 161px;
         z-index: 555;
+        font-weight: 700;
     }
 
     .text ul li {
@@ -210,15 +211,11 @@
     }
 
     .container {
-        background-image: url(../assets/images/bg32.png);
+        background-image: url(../assets/images/webp/bg32.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
-    }
-
-    .b-two img {
-
     }
 
     .drown-one {
@@ -290,6 +287,7 @@
             margin-left: 265px;
             margin-top: 151px;
             z-index: 555;
+            font-weight: 700;
         }
 
         .text ul li {
@@ -374,6 +372,7 @@
             margin-left: 74px;
             margin-top: 151px;
             z-index: 555;
+            font-weight: 700;
         }
     }
 
@@ -398,6 +397,7 @@
             margin-left: 74px;
             margin-top: 151px;
             z-index: 555;
+            font-weight: 700;
         }
         .svg-one {
             margin-left: 70px;

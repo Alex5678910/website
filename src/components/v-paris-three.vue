@@ -10,7 +10,7 @@
         </div>
         <router-link tag="a" :to="'/mobile'" @click="openUp()"><a class="info">Подробнее</a></router-link>
         <div class="images">
-            <img src="../assets/img/m3.png" alt="">
+            <img src="../assets/img/webp/m3.webp" alt="pic">
         </div>
     </div>
 </template>
@@ -44,7 +44,7 @@
     }
 
     .main {
-        background-image: url(../assets/img/bg6.png);
+        background-image: url(../assets/img/webp/bg6.webp);
         background-attachment: fixed;
         background-position: center;
         height: 955px;

@@ -4,7 +4,7 @@
         <div id="grid" class="grid">
 
             <div class="grid__item">
-                <img class="images" src="../assets/images/ic1.png" alt="">
+                <img class="images" src="../assets/images/ic1.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -20,7 +20,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="../assets/images/ic2.png" alt="">
+                <img class="images" src="../assets/images/ic2.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="../assets/images/ic3.png" alt="">
+                <img class="images" src="../assets/images/ic3.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -51,7 +51,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="../assets/images/ic4.png" alt="">
+                <img class="images" src="../assets/images/ic4.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -67,7 +67,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="../assets/images/ic5.png" alt="">
+                <img class="images" src="../assets/images/ic5.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -82,7 +82,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="../assets/images/ic6.png" alt="">
+                <img class="images" src="../assets/images/ic6.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -97,7 +97,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="../assets/images/ic7.png" alt="">
+                <img class="images" src="../assets/images/ic7.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -113,7 +113,7 @@
             </div>
 
             <div class="grid__item">
-                <img class="images" src="../assets/images/ic8.png" alt="">
+                <img class="images" src="../assets/images/ic8.png" alt="pic">
             </div> <!--img-->
 
             <div class="grid__item">
@@ -133,6 +133,7 @@
 <style scoped>
     div.title{
         font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
     }
     .images{
         width: 60px;

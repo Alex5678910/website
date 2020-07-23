@@ -18,13 +18,13 @@
         </ul>
         <div class="flex">
             <div class="flex__item">
-                <img src="../assets/images/t1.png" alt="">
+                <img src="../assets/images/webp/t1.webp" alt="pic">
             </div>
             <div class="flex__item">
-                <img src="../assets/images/t2.png" alt="">
+                <img src="../assets/images/webp/t2.webp" alt="pic">
             </div>
             <div class="flex__item">
-                <img src="../assets/images/t3.png" alt="">
+                <img src="../assets/images/webp/t3.webp" alt="pic">
             </div>
         </div>
         <div class="footer">
@@ -130,6 +130,7 @@
         color: #5a1212;
         font-family: 'Montserrat', sans-serif;
         margin: 40px 0;
+        font-weight: 700;
     }
 
     /* =======================================min-width: 414px==================================*/

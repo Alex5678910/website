@@ -77,7 +77,7 @@
     }
     .container {
         max-width: 414px;
-        background-image: url(../assets/mobail/bg-mob-001.png);
+        background-image: url(../assets/mobail/webp/bg-mob-001.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
