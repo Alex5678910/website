@@ -10,23 +10,29 @@ export default new VueRouter({
         {
             path: '/',
             component: vMainWrapper
+
         },
         {
             path: '/good',
-            component: vProduct
+            component: vProduct,
+            name: 'good',
+
         },
         {
             path: '/mobile',
-            component: vMobile
+            component: vMobile,
+            name: 'mobile',
+
         },
         {
             path: '/crm',
             component: vCrm,
-            name: 'crm'
+            name: 'crm',
         },
         {
             path: '/bots',
-            component: vBots
+            component: vBots,
+            name: 'bots',
         },
     ],
     mode: 'history'

@@ -10,8 +10,9 @@
             <hr>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
-            <router-link :to="{name: 'crm'}">Подробнее</router-link>
+            <!--   <router-link :to="{name: 'crm'}">Подробнее</router-link>-->
         </div>
+        <router-link :to="'/crm'" tag="a"><a class="link" @click="openUp">Подробнее</a></router-link>
     </div>
 </template>
 
@@ -19,9 +20,9 @@
     export default {
         name: "v-paris-two",
         methods:{
-            // openUp(){
-            //     window.scrollTo(0, 0)
-            // }
+            openUp(){
+                window.scrollTo(0, 0)
+            }
         }
     }
 </script>
@@ -69,12 +70,15 @@
         margin-top: 4%;
     }
 
-    a{
+    a.link{
         color: aliceblue;
-        font-size: 195%;
+        font-size: 164%;
         text-align: right;
-        padding-left: 76%;
         font-family: 'Montserrat Alternates', sans-serif;
+        position: absolute;
+        top: 55%;
+        right: 16%;
+        text-decoration: underline;
     }
 
     h2 {
@@ -91,12 +95,15 @@
         .main {
             height: 768px;
         }
-        a{
+        a.link{
             color: aliceblue;
-            font-size: 162%;
+            font-size: 164%;
             text-align: right;
-            padding-left: 78%;
             font-family: 'Montserrat Alternates', sans-serif;
+            position: absolute;
+            top: 59%;
+            right: 5%;
+            text-decoration: underline;
         }
 
         img {
@@ -191,8 +198,6 @@
             text-align: right;
         }
     }
-
-
     /*====================================================max-width: 769px========================================*/
     @media (max-width: 414px) {
 

@@ -68,7 +68,6 @@
     }
 
     .container {
-        width: 99.1vw;
         background-image: url(../assets/images/bg-bots.png);
         background-position: center;
         background-size: cover;
