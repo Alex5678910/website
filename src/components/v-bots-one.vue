@@ -128,7 +128,7 @@
             text-align: right;
             font-weight: bold;
             padding-right: 16%;
-            padding-top: 9%;
+            padding-top: 5%;
         }
     }
 
