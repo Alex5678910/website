@@ -8,7 +8,7 @@
                 пользоваться вашими услугами прямо с<br>
                 мобильного телефона</h2>
         </div>
-        <router-link tag="a" :to="'/mobile'" @click="openUp()"><a class="info">Подробнее</a></router-link>
+        <router-link tag="a" :to="'/mobile'"><a class="info" @click="openUp()">Подробнее</a></router-link>
         <div class="images">
             <img src="../assets/img/webp/m3.webp" alt="pic">
         </div>

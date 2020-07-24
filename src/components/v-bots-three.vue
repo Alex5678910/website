@@ -503,6 +503,15 @@
             text-align: left;
             display: none;
         }
+        .main {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 1620px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
     }
     /*============================================================768===================================*/
 </style>
