@@ -56,7 +56,11 @@
     }
 
     .flex-three {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: flex-end;
         margin-top: 1rem;
         margin-right: 2rem;
@@ -64,23 +68,37 @@
     }
 
     .flex-two {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: flex-end;
         margin-right: 3rem;
         margin-top: 2rem;
     }
 
     .header {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         background-color: #000000;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
         align-items: flex-end;
         font-family: 'Montserrat', sans-serif;
         border-bottom: 1px solid #847f7f;
     }
 
     .header-one {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         margin-left: 6rem;
         margin-bottom: 2rem;
@@ -109,6 +127,8 @@
 
     a:hover{
         color: chocolate;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
         transition: all .5s;
     }
 
@@ -130,17 +150,25 @@
         border-radius: .5rem;
         min-width: 23rem;
         height: 3rem;
+        background: -webkit-gradient(linear, left bottom, left top, from(#FFAA00), to(#F2D72B));
+        background: -o-linear-gradient(bottom, #FFAA00, #F2D72B);
         background: linear-gradient(to top, #FFAA00, #F2D72B);
         font-family: 'Montserrat', sans-serif;
         cursor: pointer;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
         transition: all .5s;
     }
     button:hover {
+        background: -webkit-gradient(linear, left bottom, left top, from(#ffdd00), to(#fcdc15));
+        background: -o-linear-gradient(bottom, #ffdd00, #fcdc15);
         background: linear-gradient(to top, #ffdd00, #fcdc15);
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
         transition: all .5s;
     }
     button:focus {
-       outline: none;
+        outline: none;
     }
 
     /*==============================================================media=============================*/
@@ -162,7 +190,11 @@
             margin-bottom: 1rem;
         }
         .flex-three {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
             justify-content: flex-end;
             margin-top: 1rem;
             margin-right: 2rem;
@@ -196,18 +228,28 @@
             border-radius: .5rem;
             min-width: 16rem;
             height: 2.4rem;
+            background: -webkit-gradient(linear, left bottom, left top, from(#FFAA00), to(#F2D72B));
+            background: -o-linear-gradient(bottom, #FFAA00, #F2D72B);
             background: linear-gradient(to top, #FFAA00, #F2D72B);
             font-family: 'Montserrat', sans-serif;
             cursor: pointer;
         }
         .flex-two{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
             justify-content: flex-end;
             margin-right: 1rem;
             margin-top: 1rem;
         }
         .header-one{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             margin-left: 3rem;
             margin-bottom: 1rem;
@@ -225,6 +267,8 @@
             border-radius: .5rem;
             min-width: 14rem;
             height: 2rem;
+            background: -webkit-gradient(linear, left bottom, left top, from(#FFAA00), to(#F2D72B));
+            background: -o-linear-gradient(bottom, #FFAA00, #F2D72B);
             background: linear-gradient(to top, #FFAA00, #F2D72B);
             font-family: 'Montserrat', sans-serif;
             cursor: pointer;
@@ -241,7 +285,10 @@
     @media (max-width: 768px) {
         .header {
             background-color: #000000;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         }
 

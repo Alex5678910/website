@@ -76,10 +76,12 @@
         padding: 0;
         font-family: 'Montserrat', sans-serif;
         max-width: 1920px;
-        }
+    }
 
     div.crm-wrapper {
         background-color: #000;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 852px;
         width: 100%;
@@ -97,7 +99,12 @@
 
     }
     div.subtitle-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
         flex-direction: row;
     }
     div.left-wrapper {
@@ -130,8 +137,15 @@
         margin-left: 15px;
     }
     div.middle-item .item {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
         flex-direction: row-reverse;
     }
     div.middle-item {

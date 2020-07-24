@@ -40,6 +40,8 @@
     .images {
         position: absolute;
         right: 0;
+        -webkit-transform: scale(.8);
+        -ms-transform: scale(.8);
         transform: scale(.8);
     }
 
@@ -48,6 +50,8 @@
         background-attachment: fixed;
         background-position: center;
         height: 955px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         background-size: cover;
         background-repeat: no-repeat;
@@ -157,6 +161,33 @@
             font-size: 225%;
             font-family: 'Montserrat Alternates', sans-serif;
         }
+        h2{
+            color: #f0f8ff;
+            font-weight: normal;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 3%;
+            text-align: left;
+            padding-left: 18%;
+            font-size: 152%;
+        }
+        hr{
+            width: 65%;
+            margin-left: 18%;
+            border-color: #454649;
+            margin-top: 5%;
+        }
+        a.info{
+            color: aliceblue;
+            font-size: 161%;
+            font-family: 'Montserrat Alternates', sans-serif;
+            position: absolute;
+            left: 17.7%;
+            top: 82%;
+            text-decoration: underline;
+        }
+        .main{
+            height: 558px;
+        }
     }
 
     /*====================================================max-width: 1024========================================*/
@@ -164,18 +195,34 @@
     @media (max-width: 768px) {
         a.info {
             color: aliceblue;
-            padding-right: 26%;
-            font-size: 225%;
+            font-size: 139%;
             font-family: 'Montserrat Alternates', sans-serif;
+            position: absolute;
+            top: 67%;
+            left: 13%;
         }
         div.title{
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
             padding-top: 9%;
-            font-size: 319%;
+            font-size: 188%;
             z-index: 100;
-            padding-left: 26%;
+            margin-left: -76px;
+        }
+        h2{
+            color: #f0f8ff;
+            font-weight: normal;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 3%;
+            text-align: left;
+            padding-left: 18%;
+            font-size: 92%;
+        }
+        .text{
+            position: absolute;
+            top: 6%;
+            left: 2%;
         }
     }
     /*====================================================max-width: 414========================================*/

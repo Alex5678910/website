@@ -85,7 +85,11 @@
 <style scoped>
 
     .input__wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
         align-items: flex-end;
     }
 
@@ -132,6 +136,8 @@
     img {
         width: 40px;
         margin-top: 1rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -139,9 +145,18 @@
         background-color: #000000;
         height: 728px;
         color: aliceblue;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         padding-left: 10%;
         font-family: 'Montserrat Alternates', sans-serif;
@@ -179,14 +194,21 @@
     /*====================================================max-width: 1366========================================*/
     /*====================================================max-width: 1024px========================================*/
     @media (max-width: 1024px) {
-        .footer {
+        .footer{
             margin-bottom: 0;
             background-color: #000000;
             color: aliceblue;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
             padding-right: 7rem;
+            height: 29rem;
         }
 
         button {
@@ -200,18 +222,21 @@
         }
 
         div.title, small, img {
-            margin-left: 16%;
+            margin-left: 10%;
+        }
+        div.title {
+            font-size: 43px;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 700;
         }
     }
 
     /*====================================================max-width: 768px========================================*/
     @media (max-width: 768px) {
-
         img {
             width: 40px;
             margin-top: 1rem;
         }
-
         button {
             text-align: center;
             font-family: 'Montserrat', sans-serif;
@@ -221,9 +246,13 @@
         .input {
             font-size: 1.7rem;
         }
-        div.title{
-            font-size: 47px;
+        div.title {
+            font-size: 33px;
             font-weight: 700;
+        }
+        small{
+            font-size: 23px;
+            font-family: 'Montserrat Alternates', sans-serif;
         }
     }
 
@@ -248,8 +277,14 @@
         .footer {
             background-color: #000000;
             color: aliceblue;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
             height: auto;
             padding-left: 0;
@@ -273,7 +308,11 @@
         }
 
         .input__wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
         }
 
@@ -312,8 +351,14 @@
         .footer {
             background-color: #000000;
             color: aliceblue;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
             height: auto;
             padding-left: 0;
@@ -335,7 +380,11 @@
         }
 
         .input__wrapper {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
             padding-left: 7%;
             padding-top: 2%;
@@ -355,7 +404,6 @@
 
         }
     }
-
     /*====================================================max-width: 320========================================*/
 
 </style>

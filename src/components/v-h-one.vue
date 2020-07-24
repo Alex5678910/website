@@ -84,9 +84,17 @@
         font-size: 20px;
         color: white;
         font-family: 'Montserrat Alternates', sans-serif;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
         opacity: .8;
     }
@@ -141,6 +149,8 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -190,9 +200,17 @@
             font-size: 14px;
             color: white;
             font-family: 'Montserrat Alternates', sans-serif;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
             opacity: .8;
         }
@@ -286,9 +304,17 @@
             font-size: 14px;
             color: white;
             font-family: 'Montserrat Alternates', sans-serif;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
             opacity: .8;
         }
@@ -306,9 +332,17 @@
             font-size: 14px;
             color: white;
             font-family: 'Montserrat Alternates', sans-serif;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
+            -webkit-box-align: start;
+            -ms-flex-align: start;
             align-items: flex-start;
+            -ms-flex-pack: distribute;
             justify-content: space-around;
             opacity: .8;
 

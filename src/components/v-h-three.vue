@@ -166,7 +166,6 @@
 </script>
 
 <style scoped>
-
     .svg-two {
         position: absolute;
         top: 11%;
@@ -183,10 +182,14 @@
     }
 
     .b-two {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
     .items {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -215,6 +218,8 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 

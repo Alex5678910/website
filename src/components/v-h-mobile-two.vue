@@ -53,7 +53,11 @@
 
     .fixed {
         padding-right: 2%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: flex-end;
     }
 
@@ -64,7 +68,11 @@
     }
 
     .footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         margin: 0 14%;
     }
@@ -84,12 +92,18 @@
     }
 
     .flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         margin: 0 14%;
     }
 
     .flex__item {
+        -webkit-box-flex: .5;
+        -ms-flex: .5 .5 auto;
         flex: .5 .5 auto;
     }
 
@@ -112,6 +126,7 @@
         text-align: center;
         margin-right: 0.5rem;
         -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
         transform: rotate(45deg);
         vertical-align: middle;
     }

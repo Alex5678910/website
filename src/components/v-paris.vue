@@ -37,6 +37,8 @@
     .images {
         position: absolute;
         right: 0;
+        -webkit-transform: scale(.8);
+        -ms-transform: scale(.8);
         transform: scale(.8);
     }
 
@@ -44,6 +46,8 @@
         background-image: url(../assets/img/webp/bg2.webp);
         background-attachment: fixed;
         height: 980px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         background-size: cover;
         background-repeat: no-repeat;
@@ -200,12 +204,44 @@
             margin-left: 8%;
             border-color: #454649;
         }
+        a.info{
+            color: aliceblue;
+            margin-left: -23%;
+            font-size: 177%;
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
     }
 
     /*====================================================max-width: 1025px========================================*/
     /*====================================================max-width: 768px========================================*/
     @media (max-width: 768px) {
-
+        h1{
+            position: relative;
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 3%;
+            text-align: left;
+            padding-left: 8%;
+            font-size: 328%;
+            z-index: 115;
+        }
+        h2{
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 173%;
+            z-index: 115;
+        }
+        a.info{
+            color: aliceblue;
+            margin-left: -20%;
+            font-size: 177%;
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+        .main{
+            height: 33rem;
+        }
     }
 
     /*====================================================max-width: 769px========================================*/

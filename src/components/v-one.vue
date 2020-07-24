@@ -87,6 +87,8 @@
     .main {
         height: 953px;
         background-color: #E1E1E1;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         position: relative;
     }
@@ -122,7 +124,7 @@
         top: 16%;
         right: 9%;
     }
-/*============================================================1366===================================*/
+    /*============================================================1366===================================*/
     @media (max-width: 1366px) {
         svg.svg-one{
             height: 560px;
@@ -157,12 +159,13 @@
             fill: none;
             stroke: #00b5e3;
             stroke-linejoin: round;
-            /*stroke-width: 2%;*/
             opacity: 0.25;
         }
         .main {
             height: 675px;
             background-color: #E1E1E1;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             position: relative;
         }
@@ -186,7 +189,14 @@
         }
 
         img:nth-child(3) {
-         z-index: 10;
+            z-index: 10;
+        }
+        h1{
+            font-size: 333%;
+            color: #ffbe6a;
+            text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            font-family: Montserrat, sans-serif;
+            font-weight: bold;
         }
     }
     /*============================================================1366===================================*/
@@ -227,13 +237,15 @@
             stroke-linejoin: round;
             opacity: 0.25;
         }
-        .main[data-v-7a9835a2] {
+        .main{
             height: 590px;
             background-color: #E1E1E1;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             position: relative;
         }
-        .circle[data-v-7a9835a2] {
+        .circle {
             position: absolute;
             top: 28.8%;
             right: 4.7%;
@@ -241,12 +253,12 @@
             width: 69%;
         }
 
-        .circle-two[data-v-7a9835a2][data-v-7a9835a2] {
+        .circle-two {
             position: absolute;
             top: 45.1%;
             right: 0.4%;
         }
-        img[data-v-7a9835a2]:nth-child(1) {
+        img:nth-child(1) {
             height: 46%;
             width: 19%;
             position: absolute;
@@ -255,7 +267,7 @@
             z-index: 5;
         }
 
-        img[data-v-7a9835a2][data-v-7a9835a2]:nth-child(2) {
+        img:nth-child(2) {
             width: 24%;
             height: 65%;
             position: absolute;
@@ -264,7 +276,7 @@
             z-index: 10;
         }
 
-        img[data-v-7a9835a2]:nth-child(3) {
+        img:nth-child(3) {
             height: 47%;
             width: 19%;
             position: absolute;
@@ -272,43 +284,52 @@
             right: 9%;
             z-index: 8;
         }
-        svg.svg-two[data-v-7a9835a2] {
+        svg.svg-two {
             height: 323px;
         }
-        svg.svg-one[data-v-7a9835a2] {
+        svg.svg-one {
             height: 430px;
+        }
+        h1{
+            font-size: 212%;
+            color: #ffbe6a;
+            text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            font-family: Montserrat, sans-serif;
+            font-weight: bold;
         }
     }
     /*============================================================1024===================================*/
     /*============================================================768===================================*/
     @media (max-width: 768px) {
-        .circle[data-v-7a9835a2][data-v-7a9835a2] {
+        .circle {
             position: absolute;
             top: 33.8%;
-            right: 32.7%;
+            right: 6.1%;
             z-index: 1;
-            width: 34%;
+            width: 69%;
         }
-        svg.svg-one[data-v-7a9835a2][data-v-7a9835a2][data-v-7a9835a2] {
+        svg.svg-one {
             height: 384px;
             width: 400px;
         }
-        svg.svg-two[data-v-7a9835a2][data-v-7a9835a2] {
+        svg.svg-two {
             height: 267px;
             width: 400px;
         }
-        .main[data-v-7a9835a2][data-v-7a9835a2] {
+        .main {
             height: 479px;
             background-color: #E1E1E1;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             position: relative;
         }
-        .web[data-v-7a9835a2] {
+        .web {
             position: absolute;
             top: 1%;
             left: 7.5%;
         }
-        .circle-two[data-v-7a9835a2][data-v-7a9835a2][data-v-7a9835a2] {
+        .circle-two{
             position: absolute;
             top: 45.1%;
             right: 8.4%;
@@ -320,5 +341,4 @@
             display: none !important;
         }
     }
-
 </style>

@@ -39,6 +39,8 @@
         font-size: 40px;
         color: black;
         font-family: 'Montserrat', sans-serif;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
     }
 
@@ -47,6 +49,8 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         color: #0e0d0d;
+        -ms-flex-item-align: self-start;
+        -ms-grid-row-align: self-start;
         align-self: self-start;
     }
 
@@ -58,8 +62,14 @@
         background-color: white;
         width: 100%;
         height: 6rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
         align-items: flex-end;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -85,6 +95,7 @@
     }
 
     .container {
+        background: -o-linear-gradient(250deg, #1B1932, #100D0D, #431C1C);
         background: linear-gradient(200deg, #1B1932, #100D0D, #431C1C);
         max-width: 414px;
         height: 591px;
@@ -169,6 +180,7 @@
         }
 
         .container {
+            background: -o-linear-gradient(250deg, #1B1932, #100D0D, #431C1C);
             background: linear-gradient(200deg, #1B1932, #100D0D, #431C1C);
             max-width: 414px;
             height: 558px;
@@ -196,6 +208,7 @@
         }
 
         .container {
+            background: -o-linear-gradient(250deg, #1B1932, #100D0D, #431C1C);
             background: linear-gradient(200deg, #1B1932, #100D0D, #431C1C);
             max-width: 414px;
             height: 449px;

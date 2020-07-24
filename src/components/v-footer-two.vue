@@ -33,7 +33,12 @@
 
     .img {
         padding: 1rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-top: 0;
     }
@@ -41,7 +46,11 @@
     .footer {
         color: black;
         background-color: white;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         padding-left: 15%;
         height: 3%;
@@ -51,6 +60,8 @@
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         color: black;
     }
@@ -77,7 +88,11 @@
         .footer {
             color: black;
             background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             padding-left: 0;
         }
@@ -91,7 +106,11 @@
         .footer {
             color: black;
             background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             padding-left: 0;
         }

@@ -17,6 +17,7 @@
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
         margin: 0;
+        -ms-flex-item-align: baseline;
         align-self: baseline;
         padding-left: 13%;
     }
@@ -35,9 +36,18 @@
         margin-top: -5%;
         background-size: cover;
         background-repeat: no-repeat;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
     /* =======================================min-width: 414px==================================*/

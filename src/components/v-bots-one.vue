@@ -41,7 +41,7 @@
         font-size: 20px;
         text-align: right;
         font-weight: bold;
-        padding-right: 10%;
+        padding-right: 16%;
         padding-top: 10%;
     }
 
