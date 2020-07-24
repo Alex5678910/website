@@ -1,8 +1,8 @@
 <template>
     <div class="main">
         <div class="text">
-            <div class="title">Создадим сайт<br>
-                для вашей компании.</div>
+            <h1><strong>Создадим сайт<br>
+                для вашей компании.</strong></h1>
             <hr>
             <h2>Наша продуманная работа <br>
                 поможет представить вам свой контент<br>
@@ -72,6 +72,17 @@
         z-index: 115;
         margin: 40px 0;
     }
+    h1 {
+        color: aliceblue;
+        font-weight: bold;
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding-top: 32%;
+        text-align: left;
+        padding-left: 20%;
+        font-size: 380%;
+        z-index: 115;
+        margin: 40px 0;
+    }
 
     hr {
         width: 66%;
@@ -97,6 +108,15 @@
         }
 
         div.title {
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 21%;
+            padding-left: 8%;
+            font-size: 265%;
+            z-index: 115;
+        }
+        h1 {
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -145,6 +165,17 @@
         }
 
         div.title {
+            position: relative;
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-top: 3%;
+            text-align: left;
+            padding-left: 8%;
+            font-size: 380%;
+            z-index: 115;
+        }
+        h1 {
             position: relative;
             color: aliceblue;
             font-weight: bold;

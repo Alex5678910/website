@@ -4,7 +4,7 @@
             <h2 class="animate__animated animate__bounceInUp"><span class="text animate__animated animate__headShake">WebKiwi</span><br>
                 STUDIO
             </h2>
-            <h1 class="animate__animated animate__bounceInUp">-Услуги по digital разработке</h1>
+            <div class="title animate__animated animate__bounceInUp">-Услуги по digital разработке</div>
         </div>
         <div class="romb-3">
             <img src="../assets/img/webp/romb1.webp" alt="pic">
@@ -43,8 +43,19 @@
         padding-right: 8%;
 
     }
+    div.title{
+        font-size: 375%;
+        text-align: right;
+        color: aliceblue;
+        font-weight: bold;
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding-bottom: 21%;
+        padding-top: 2%;
+        padding-right: 8%;
+
+    }
     .header {
-        background-image: url(../assets/img/bg1.png);
+        background-image: url(../assets/img/webp/bg1.webp);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -96,8 +107,18 @@
             padding-top: 8%;
             padding-right: 8%;
         }
+        div.title {
+            font-size: 253%;
+            text-align: right;
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-bottom: 17%;
+            padding-top: 8%;
+            padding-right: 8%;
+        }
         .header {
-            background-image: url(../assets/img/bg1.png);
+            background-image: url(../assets/img/webp/bg1.webp);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -145,6 +166,16 @@
 
     @media (max-width: 1024px) {
         h1{
+            font-size: 186%;
+            text-align: right;
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Montserrat Alternates', sans-serif;
+            padding-bottom: 17%;
+            padding-top: 0%;
+            padding-right: 8%;
+        }
+        div.title{
             font-size: 186%;
             text-align: right;
             color: aliceblue;
