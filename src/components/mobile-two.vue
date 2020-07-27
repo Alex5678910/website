@@ -54,6 +54,12 @@
         -ms-flex-pack: center;
         justify-content: center;
     }
+    
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(../assets/mobail/mb1.png);
+        }
+    }
 
     div.title {
         text-align: left;
