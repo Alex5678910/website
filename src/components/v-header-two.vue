@@ -22,7 +22,9 @@
 
 <style scoped>
     .container{
+        -webkit-perspective: 1px;
         perspective: 1px;
+        -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
     }
     .romb-3 img{
@@ -59,9 +61,11 @@
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
+        -webkit-box-shadow: -1px 14px 9px -8px #3f2adf;
         box-shadow: -1px 14px 9px -8px #3f2adf;
         height: 100vh;
         background-size: cover;
+        -webkit-box-sizing: border-box;
         box-sizing: border-box;
     }
 
@@ -122,6 +126,7 @@
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
+            -webkit-box-shadow: -1px 14px 9px -8px #3f2adf;
             box-shadow: -1px 14px 9px -8px #3f2adf;
             background-size: cover;
             max-width: 1366px;
@@ -148,6 +153,7 @@
             margin-top: -16px;
         }
         .header {
+            -webkit-box-shadow: -1px 14px 9px -8px #3f2adf;
             box-shadow: -1px 14px 9px -8px #3f2adf;
             max-width: 1366px;
             height: 47vh;

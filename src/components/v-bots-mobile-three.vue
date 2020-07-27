@@ -125,8 +125,15 @@
     }
 
     .container-one {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
         padding-right: 0%;
         padding-left: 12%;
@@ -140,7 +147,6 @@
         text-align: left;
         font-weight: normal;
         margin-left: 0;
-        padding-left: 4%;
         white-space: nowrap;
     }
 
@@ -149,8 +155,14 @@
         width: 26px;
         height: 26px;
         border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -160,9 +172,16 @@
         width: 20px;
         height: 20px;
         border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        background: -o-radial-gradient(70px 50px, circle closest-corner, #3C3771, #130C37);
         background: radial-gradient(circle closest-corner at 70px 50px, #3C3771, #130C37);
         color: #FFAA00;
         font-size: 13px;
@@ -171,8 +190,14 @@
     }
 
     .block-two {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         margin-left: 10%;
         padding-top: 2%;
@@ -180,8 +205,14 @@
     }
 
     .block-one {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -190,8 +221,14 @@
         width: 37px;
         height: 37px;
         border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -201,9 +238,16 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        background: -o-radial-gradient(70px 50px, circle closest-corner, #FFDD00, #FF7104);
         background: radial-gradient(circle closest-corner at 70px 50px, #FFDD00, #FF7104);
         color: #5d00ff;
         font-size: 17px;
@@ -216,7 +260,6 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         text-align: center;
-        padding-left: 6%;
         white-space: nowrap;
     }
 
@@ -238,7 +281,12 @@
         background-repeat: no-repeat;
         height: 922px;
         max-width: 414px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -269,8 +317,14 @@
             white-space: nowrap;
         }
         .block-two{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
             margin-left: 10%;
             padding-top: 0;

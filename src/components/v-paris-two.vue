@@ -10,7 +10,6 @@
             <hr>
             <h2>Следите за работой вашей организации<br>
                 со своего устройства</h2>
-            <!--   <router-link :to="{name: 'crm'}">Подробнее</router-link>-->
         </div>
         <router-link :to="'/crm'" tag="a"><a class="link" @click="openUp">Подробнее</a></router-link>
     </div>
@@ -33,6 +32,8 @@
         padding-top: 0;
         padding-bottom: 0;
         position: absolute;
+        -webkit-transform: scale(.7);
+        -ms-transform: scale(.7);
         transform: scale(.7);
         left: -4%;
         top: 9%;
@@ -58,6 +59,8 @@
         background-attachment: fixed;
         background-position: center;
         height: 915px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         background-size: cover;
         background-repeat: no-repeat;
@@ -128,6 +131,8 @@
             padding-top: 0;
             padding-bottom: 0;
             position: absolute;
+            -webkit-transform: scale(.9);
+            -ms-transform: scale(.9);
             transform: scale(.9);
             left: -4%;
             top: 9%;
@@ -145,9 +150,9 @@
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
-            padding-top: 75%;
+            padding-top: 52%;
             text-align: right;
-            font-size: 346%;
+            font-size: 286%;
         }
 
         .text {
@@ -156,14 +161,26 @@
             right: 10%;
         }
 
-        .main {
+        .main{
             background-attachment: fixed;
             background-position: center;
-            height: 55rem;
+            height: 39rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             background-size: cover;
             background-repeat: no-repeat;
             position: relative;
+        }
+        a.link{
+            color: aliceblue;
+            font-size: 164%;
+            text-align: right;
+            font-family: 'Montserrat Alternates', sans-serif;
+            position: absolute;
+            top: 77%;
+            right: 10%;
+            text-decoration: underline;
         }
 
     }
@@ -184,19 +201,36 @@
         .main {
             background-attachment: fixed;
             background-position: center;
-            height: 45rem;
+            height: 35rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             background-size: cover;
             background-repeat: no-repeat;
             position: relative;
         }
-        div.title{
+        div.title {
             color: aliceblue;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
             padding-top: 60%;
-            font-size: 346%;
+            font-size: 255%;
             text-align: right;
+        }
+        a.link{
+            color: aliceblue;
+            font-size: 164%;
+            text-align: right;
+            font-family: 'Montserrat Alternates', sans-serif;
+            position: absolute;
+            top: 76%;
+            right: 10%;
+            text-decoration: underline;
+        }
+        .text {
+            position: absolute;
+            top: -64%;
+            right: 10%;
         }
     }
     /*====================================================max-width: 769px========================================*/

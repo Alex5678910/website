@@ -20,8 +20,14 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
 
     }
@@ -47,7 +53,11 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 50px;
             font-weight: normal;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
         }
     }
@@ -59,7 +69,11 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 50px;
             font-weight: normal;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
             justify-content: center;
         }
     }
@@ -69,6 +83,4 @@
             display: none;
         }
     }
-
-
 </style>

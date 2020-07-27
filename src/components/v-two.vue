@@ -247,5 +247,4 @@
             display: none;
         }
     }
-
 </style>

@@ -67,9 +67,17 @@
         text-align: left;
     }
     .main{
+        -ms-flex-pack: distribute;
         justify-content: space-around;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         margin-left: 10%;
         position: relative;
@@ -99,6 +107,5 @@
             text-align: left;
         }
     }
-
     /* =======================================min-width: 320px==================================*/
 </style>

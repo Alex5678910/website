@@ -224,9 +224,15 @@
         font-size: 20px;
         background-color: rgba(224, 231, 236, 0.7);
         height: 61px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -239,7 +245,12 @@
         width: 260px;
         height: 367px;
         border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         border-bottom: none;
     }
@@ -250,9 +261,18 @@
         background-color: #121527;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -273,17 +293,26 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: 1779px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         width: 99.1vw;
     }
     .grid {
         grid-row-gap: 1rem;
         grid-column-gap: 1rem;
+        display: -ms-grid;
         display: grid;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         color: aliceblue;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-grid-columns: 260px 1rem 260px 1rem 260px 1rem 260px 1rem 260px 1rem 260px;
         grid-template-columns: repeat(6, 260px);;
+        -ms-grid-rows: 368px 1rem 368px 1rem 368px;;
         grid-template-rows: repeat(3, 368px);
         grid-template-areas:
                 "a b c d e f"
@@ -291,48 +320,72 @@
                 "m o p q r s"
     }
     .card:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
         grid-area: b;
     }
 
     .card:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 5;
         grid-area: c;
     }
 
     .card:nth-child(3) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 7;
         grid-area: d;
     }
 
     .card:nth-child(4) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 9;
         grid-area: e;
     }
     .card:nth-child(5) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
         grid-area: h;
     }
 
     .card:nth-child(6) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 5;
         grid-area: i;
     }
 
     .card:nth-child(7) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 7;
         grid-area: j;
     }
 
     .card:nth-child(8) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 9;
         grid-area: k;
     }
     .card:nth-child(9) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 3;
         grid-area: o;
     }
 
     .card:nth-child(10) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 5;
         grid-area: p;
     }
 
     .card:nth-child(11) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 7;
         grid-area: q;
     }
 
     .card:nth-child(12) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 9;
         grid-area: r;
     }
     /*============================================================768===================================*/
@@ -359,6 +412,8 @@
             font-weight: 700;
         }
         .grid{
+            -webkit-transform: scale(.8);
+            -ms-transform: scale(.8);
             transform: scale(.8);
         }
 
@@ -381,6 +436,8 @@
             padding-bottom: 0;
         }
         .grid{
+            -webkit-transform: scale(.7);
+            -ms-transform: scale(.7);
             transform: scale(.7);
         }
     }
@@ -403,6 +460,8 @@
             font-weight: 700;
         }
         .grid{
+            -webkit-transform: scale(.5);
+            -ms-transform: scale(.5);
             transform: scale(.5);
             margin-top: -28%;
         }
