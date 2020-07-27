@@ -1,8 +1,8 @@
 <template>
     <div class="main">
         <div class="left">
-            <h1>Зачем вашему<br>
-                бизнесу нужен сайт?</h1>
+            <h1><strong>Зачем вашему<br>
+                бизнесу нужен сайт?</strong></h1>
             <p>С развитием технологий весь поток<br>
                 потенциальных клиентов перешел<br>
                 в интернет. Можно предлагать свои<br>
@@ -17,7 +17,7 @@
                 его продвижении и обслуживании.</p>
         </div>
         <div class="right">
-            <img src="../assets/images/webp/computer.webp" alt="pic">
+            <img src="../assets/images/webp/computer.webp" title="Сайт для бизнеса" alt="Монитор с дизайном сайта">
             <svg width="566" height="364" viewBox="0 0 566 364" class="cls-one">
                 <g id="Rectangle_34" data-name="Rectangle 34" fill="none" stroke="#e0f" stroke-width="2" opacity="0.45">
                     <rect width="566" height="364" rx="15" stroke="none"/>

@@ -96,7 +96,7 @@
                 </div>
             </div>
         <div class="block-three">
-           <img src="../assets/images/webp/big-robot.webp" alt="pic">
+           <img src="../assets/images/big-robot.png" alt="pic">
         </div>
     </div>
 </template>
@@ -288,6 +288,11 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .main {
+            background-image: url(../assets/images/bg-robot.png);
+        }
     }
 
     /*============================================================768===================================*/

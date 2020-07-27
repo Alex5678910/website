@@ -146,6 +146,11 @@
         height: 1115px;
         background-image: url(../assets/images/webp/bg-r-tvo.webp);
     }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(../assets/images/bg-r-tvo.png);
+        }
+    }
     .card:nth-child(1) {
         -ms-grid-row: 1;
         -ms-grid-column: 1;

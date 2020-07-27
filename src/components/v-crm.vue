@@ -44,7 +44,7 @@
             },
             meta: [
             { charset: 'utf-8' },
-            { name: 'description', content: 'gator' },
+            { name: 'description', content: 'компонент CRM' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ]
         },

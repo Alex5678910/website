@@ -26,9 +26,9 @@
             </g>
         </svg>
         <div class="images">
-            <img src="../assets/mobail/webp/one-crm.webp" alt="pic" class="one-crm">
-            <img src="../assets/mobail/webp/two-crm.webp" alt="pic" class="two-crm">
-            <img src="../assets/mobail/webp/three-crm.webp" alt="pic" class="three-crm">
+            <img src="../assets/mobail/one-crm.png" alt="pic" class="one-crm">
+            <img src="../assets/mobail/two-crm.png" alt="pic" class="two-crm">
+            <img src="../assets/mobail/three-crm.png" alt="pic" class="three-crm">
         </div>
     </div>
 </template>

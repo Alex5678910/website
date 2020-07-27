@@ -91,6 +91,11 @@
         background-repeat: no-repeat;
         height: 277px;
     }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(../assets/mobail/bg-mob-001.png);
+        }
+    }
     /* =======================================min-width: 414px==================================*/
     @media (min-width: 415px) {
         .container {

@@ -3,12 +3,12 @@
         <div class="square-small">
 
             <div class="square">
-                <h1>Услуги</h1>
+                <h2>Услуги</h2>
             </div>
 
             <div class="sq">
-                <img src="../assets/images/i1.png">
-                <h2>Lending Page</h2>
+                <img src="../assets/images/i1.png" title="" alt="">
+                <div class="title">Lending Page</div>
                 <p>С учетом поведенческих факторов<br>
                     разработаем<br>
                     рекламно-презентационную<br>
@@ -22,8 +22,8 @@
         <div class="square-small">
 
             <div class="sq">
-                <img src="../assets/images/i2.png">
-                <h2>Сайт-визитка</h2>
+                <img src="../assets/images/i2.png" title="Сайт визитка для вас" alt="Иконка сайта визитка">
+                <div class="title">Сайт-визитка</div>
                 <p>Создадим простой стильный и<br>
                     лаконичный сайт для<br>
                     адекватной презентации вашей<br>
@@ -32,8 +32,8 @@
             </div>
 
             <div class="sq qs">
-                <img src="../assets/images/i3.png">
-                <h2>Корпоративный сайт</h2>
+                <img src="../assets/images/i3.png" title="Корпоративный сайт компаниям" alt="Иконка сайта для компаний">
+                <div class="title">Корпоративный сайт</div>
                 <p>Разрабатываем презентационный<br>
                     сайт компании, представив ваши<br>
                     преимущества, услуги и продукты<br>
@@ -46,8 +46,8 @@
         <div class="square-small">
 
             <div class="sq qs">
-                <img src="../assets/images/i4.png">
-                <h2>Сайт-каталог</h2>
+                <img src="../assets/images/i4.png" title="Сайт каталог для магазинов" alt="Иконка сайта каталога">
+                <div class="title">Сайт-каталог</div>
                 <p>Воплотим весь ваш товарный<br>
                     каталог в формат<br>
                     структурированного и<br>
@@ -57,8 +57,8 @@
             </div>
 
             <div class="sq">
-                <img src="../assets/images/i5.png">
-                <h2>Интернет магазин</h2>
+                <img src="../assets/images/i5.png" title="Интернет магазин для бизнеса" alt="Иконка сайта магазина">
+                <div class="title">Интернет магазин</div>
                 <p>Создадим интернет-магазин<br>
                     учитывающий особенности ваших<br>
                     товаров и полностью готовый к<br>
@@ -85,7 +85,7 @@
         margin-bottom: 102px;
     }
 
-    h2 {
+    div.title {
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 31px;
         font-weight: 700;
@@ -116,7 +116,7 @@
         font-size: 27px;
     }
 
-    h1 {
+    h2 {
         padding: 39% 0;
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 287%;
@@ -155,7 +155,7 @@
             background-color: #f9e0cb;
             margin: 0 5px 10px 5px;
         }
-        h1 {
+        h2 {
             padding: 36% 0;
             font-family: 'Montserrat Alternates', sans-serif;
             font-size: 37px;
@@ -184,7 +184,7 @@
             text-align: left;
             font-size: 14px;
         }
-        h2{
+        div.title{
             font-family: 'Montserrat Alternates', sans-serif;
             font-size: 22px;
             font-weight: 700;
@@ -221,10 +221,10 @@
         p{
             display: none;
         }
-        h1{
+        h2{
             font-size: 21px;
         }
-        h2{
+        div.title{
             font-size: 10px;
         }
         .sq img {

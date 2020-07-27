@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Web-разработка</h1>
+        <div class="title">Web-разработка</div>
         <p>Создание, разработка, продвижение....</p>
     </div>
 </template>
@@ -12,7 +12,7 @@
 </script>
 
 <style scoped>
-    h1{
+    div.title{
         color: #ff9000;
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
@@ -49,6 +49,11 @@
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(../assets/mobail/web-bg-one.png);
+        }
     }
     /* =======================================min-width: 414px==================================*/
     @media (min-width: 415px) {

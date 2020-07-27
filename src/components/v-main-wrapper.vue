@@ -78,7 +78,7 @@
             },
             meta: [
             { charset: 'utf-8' },
-            { name: 'description', content: 'Разрабатываем сайты лендинги, адаптивные, копроративные для вашего бизнеса Тольятти. Разработка приложений на android и ios. Делаем CRM системы. SEO и SMM продвижение' },
+            { name: 'description', content: 'Разработка сайтов и мобильных приложений android/ios для вашего бизнеса. Проектирование CRM систем. Услуги Digital-marketing' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ]
         },

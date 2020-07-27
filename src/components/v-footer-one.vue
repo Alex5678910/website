@@ -174,7 +174,7 @@
     button:focus {
         outline: none;
     }
-
+    
     /*====================================================max-width: 1366========================================*/
     @media (max-width: 1366px) {
         .input {
@@ -258,6 +258,19 @@
 
     /*====================================================max-width: 414========================================*/
     @media (max-width: 414px) {
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            button {
+                width: 100%;
+                height: auto;
+                line-height: 24px;
+                font-size: 14px;
+                background-color: #efefef;
+                color: #000;
+            }
+            .input__wrapper {
+                margin-top: 15px;
+            }
+        }
         div.title, small, img {
             margin-left: 16%;
         }
@@ -266,7 +279,7 @@
         }
 
         button {
-            width: 58%;
+            width: 66%;
             height: 5%;
             border-radius: 10px;
             text-align: center;
@@ -289,6 +302,7 @@
             height: auto;
             padding-left: 0;
             padding-right: 0;
+            padding-bottom: 16px;
         }
 
         .footer div.title {
@@ -332,7 +346,7 @@
 
         img {
             width: 5%;
-            margin-top: 1rem;
+            margin-top: 0;
         }
     }
 
@@ -340,7 +354,7 @@
     /*====================================================max-width: 320========================================*/
     @media (max-width: 320px) {
         button {
-            width: 58%;
+            width: 88%;
             height: 5%;
             border-radius: 10px;
             text-align: center;

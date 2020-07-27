@@ -1,14 +1,14 @@
 <template>
     <div class="main">
         <div class="web">
-            <h1>Web-разработка</h1>
+            <div class="title">Web-разработка</div>
             <small>Создание, разработка, продвижение....</small>
         </div>
 
         <div class="book">
-            <img src="../assets/images/webp/book1.webp" alt="pic">
-            <img src="../assets/images/webp/book2.webp" alt="pic">
-            <img src="../assets/images/webp/book3.webp" alt="pic">
+            <img src="../assets/images/webp/book1.webp" title="Веб сайты и их разработка" alt="Варианты сайтов на заказ">
+            <img src="../assets/images/webp/book2.webp" title="Веб сайты и их разработка" alt="Варианты сайтов на заказ">
+            <img src="../assets/images/webp/book3.webp" title="Веб сайты и их разработка" alt="Варианты сайтов на заказ">
         </div>
 
         <div class="circle">
@@ -74,6 +74,18 @@
         1px 1px 0 #000;
         font-family: Montserrat, sans-serif;
         font-weight: bold;
+    }
+    div.title {
+        font-size: 450%;
+        color: #ffbe6a;
+        text-shadow: 2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        margin: 40px 0;
     }
 
     small {

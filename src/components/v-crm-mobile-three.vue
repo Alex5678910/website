@@ -82,6 +82,11 @@
         max-width: 414px;
         height: 587px;
     }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(../assets/mobail/crm-b.png);
+        }
+    }
     img.icon{
         width: 63px;
         height: 63px;

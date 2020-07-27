@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="title">Этапы работ</div>
+        <h3>Этапы работ</h3>
         <div class="main">
             <div id="grid" class="grid">
 
@@ -280,7 +280,7 @@
 
     }
 
-    div.title {
+    h3 {
         color: black;
         font-weight: bold;
         font-family: 'Montserrat Alternates', sans-serif;
@@ -303,7 +303,7 @@
             transform: scale(.9);
         }
 
-        div.title {
+        h3 {
             color: black;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -532,7 +532,7 @@
             height: 591px;
         }
 
-        div.title {
+        h3 {
             color: black;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;
@@ -695,7 +695,7 @@
             height: 493px;
         }
 
-        div.title {
+        h3 {
             color: black;
             font-weight: bold;
             font-family: 'Montserrat Alternates', sans-serif;

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <div class="title">Зачем вашему<br>
-            бизнесу нужен сайт?</div>
+        <h1>Зачем вашему<br>
+            бизнесу нужен сайт?</h1>
         <h2>С развитием технологий весь поток<br>
             потенциальных клиентов перешел<br>
             в интернет. Можно предлагать свои<br>
@@ -16,7 +16,7 @@
             А так же в дальнейшем его продвижении<br>
             и обслуживании.</h2>
         <div class="icon">
-        <img src="../assets/mobail/webp/mobile-monitor-one.webp" alt="pic" class="monitor">
+            <img src="../assets/mobail/mobile-monitor-one.png" alt="pic" class="monitor">
             <img src="../assets/mobail/list.png" alt="" class="list" @click="openSlide">
         </div>
     </div>
@@ -57,7 +57,7 @@
         justify-content: space-around;
     }
 
-    div.title{
+    h1{
         color: #000000;
         font-size: 23px;
         font-family: 'Montserrat', sans-serif;
@@ -98,7 +98,7 @@
     /* =======================================min-width: 360==================================*/
     @media (max-width: 360px) {
 
-        div.title{
+        h1{
             color: #000000;
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;
@@ -116,7 +116,7 @@
     /* =======================================min-width: 320==================================*/
     @media (max-width: 320px) {
 
-        div.title{
+        h1{
             color: #000000;
             font-size: 23px;
             font-family: 'Montserrat', sans-serif;

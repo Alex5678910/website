@@ -38,17 +38,17 @@
             MobileWebOne, MobileHeader, VFour, VSmallSquare, VThree, VTwo, VFooterTwo, VFooterOne, VOne
         },
         metaInfo: {
-            title: 'компонент product',
-            titleTemplate: '%s | vue-meta Example App',
+            title: 'Разработка веб сайтов любого уровня в Тольятти',
+            titleTemplate: '',
             htmlAttrs: {
-            reptilian: 'gator'
+            reptilian: ''
             },
             headAttrs: {
-            nest: 'eggs'
+            nest: ''
             },
             meta: [
             { charset: 'utf-8' },
-            { name: 'description', content: 'gator' },
+            { name: 'description', content: 'Мы занимаемся проектированием и разработкой веб сайтов на заказ, которые помогают решать задачи вашего бизнеса по продаже товаров и услуг.' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ]
         },

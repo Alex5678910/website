@@ -1,7 +1,7 @@
 <template>
     <div class="main">
         <div class="left">
-            <img src="../assets/images/webp/comp-two.webp" alt="pic">
+            <img src="../assets/images/webp/comp-two.webp" title="Удобность сайта" alt="Ноутбук с шаблоном сайта">
             <svg width="842.645" height="575" viewBox="0 0 842.645 575" class="one-svg">
                 <path id="Path_58" data-name="Path 58" d="M3596.635,2041v565H2763.99"
                       transform="translate(-2763.99 -2041)" fill="none" stroke="#00b5e3" stroke-linejoin="round"
@@ -15,7 +15,7 @@
         </div>
 
         <div class="right">
-            <h1>Почему это удобно?</h1>
+            <h2>Почему это удобно?</h2>
             <p>Мы с вами придумываем удобный интерфейс<br>
                 для клиентов и для вас. Уникальный дизайн<br>
                 поможет задержать посетителя на вашем сайте.<br>
@@ -83,6 +83,17 @@
         top: 20%;
         right: 13%;
     }
+    h2 {
+        color: black;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 376%;
+        font-weight: bold;
+        text-align: left;
+        position: absolute;
+        top: 20%;
+        right: 13%;
+        margin: 40px 0;
+    }
 
     .main {
         position: relative;
@@ -92,6 +103,14 @@
     /*====================================================max-width: 1366px========================================*/
     @media (max-width: 1366px) {
         h1{
+            position: absolute;
+            top: 10%;
+            left: 59%;
+            font-size: 222%;
+            z-index: 12;
+            white-space: nowrap;
+        }
+        h2{
             position: absolute;
             top: 10%;
             left: 59%;
@@ -138,6 +157,14 @@
     /*====================================================max-width: 1024px========================================*/
     @media (max-width: 1024px) {
         h1[data-v-67da7827] {
+            position: absolute;
+            top: 10%;
+            left: 54%;
+            font-size: 222%;
+            z-index: 12;
+            white-space: nowrap;
+        }
+        h2[data-v-67da7827] {
             position: absolute;
             top: 10%;
             left: 54%;
@@ -204,6 +231,14 @@
             width: 50%;
         }
         h1[data-v-67da7827][data-v-67da7827][data-v-67da7827] {
+            position: absolute;
+            top: 10%;
+            left: 49%;
+            font-size: 167%;
+            z-index: 12;
+            white-space: nowrap;
+        }
+        h2[data-v-67da7827][data-v-67da7827][data-v-67da7827] {
             position: absolute;
             top: 10%;
             left: 49%;

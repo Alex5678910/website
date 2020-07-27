@@ -91,6 +91,11 @@
         background-repeat: no-repeat;
         height: 692px;
     }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        .container {
+            background-image: url(../assets/images/mobile-robot-one.png);
+        }
+    }
     /* =======================================min-width: 414px==================================*/
     @media (min-width: 415px) {
         .container {

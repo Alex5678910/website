@@ -18,13 +18,13 @@
         </ul>
         <div class="flex">
             <div class="flex__item">
-                <img src="../assets/images/webp/t1.webp" alt="pic">
+                <img src="../assets/images/t1.png" alt="pic">
             </div>
             <div class="flex__item">
-                <img src="../assets/images/webp/t2.webp" alt="pic">
+                <img src="../assets/images/t2.png" alt="pic">
             </div>
             <div class="flex__item">
-                <img src="../assets/images/webp/t3.webp" alt="pic">
+                <img src="../assets/images/t3.png" alt="pic">
             </div>
         </div>
         <div class="footer">

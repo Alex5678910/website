@@ -2,32 +2,32 @@
     <div class="container">
         <div class="title">Почему стоит выбирать
             именно нас</div>
-        <img src="../assets/mobail/webp/x1.webp" alt="">
+        <img src="../assets/mobail/x1.png" alt="pic">
         <p>Мы анализируем рынок. Проводим
             Аналитику исследование конкурентов и
             контрагентов. Разбираемся в отрасли.</p>
-        <img src="../assets/mobail/webp/x2.webp" alt="pic">
+        <img src="../assets/mobail/x2.png" alt="pic">
         <p>Мы нацеленны на долгосрочные отношения
             с заказчиком. Исходя из этого делаем
             сотрудничество с нами
             наиболее комфортным.</p>
-        <img src="../assets/mobail/webp/x3.webp" alt="pic">
+        <img src="../assets/mobail/x3.png" alt="pic">
         <p>Консультируем и помогаем разобраться
             в digital.</p>
-        <img src="../assets/mobail/webp/x4.webp" alt="pic">
+        <img src="../assets/mobail/x4.png" alt="pic">
         <p>Не бросаем клиента после завершения
             проекта. занимаемся дальнейшей
             поддержкой и продвижением.</p>
-        <img src="../assets/mobail/webp/x5.webp" alt="pic">
+        <img src="../assets/mobail/x5.png" alt="pic">
         <p>Мы найдем пользу и сделаем проект
             выгодным для вас.</p>
-        <img src="../assets/mobail/webp/x6.webp" alt="pic">
+        <img src="../assets/mobail/x6.png" alt="pic">
         <p>Мы следим за последними требованиями
             и трендами отрасли. Применяем
             новые технологии, делаем проекты
             привлекающими внимание, продающими,
             с качественным контентом.</p>
-        <img src="../assets/mobail/webp/x7.webp" alt="pic">
+        <img src="../assets/mobail/x7.png" alt="pic">
         <p>Ваш проект будет работать и
             и будет актуальным.</p>
     </div>

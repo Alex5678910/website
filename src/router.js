@@ -13,9 +13,9 @@ export default new VueRouter({
 
         },
         {
-            path: '/good',
+            path: '/razrabotka-sajtov',
             component: vProduct,
-            name: 'good',
+            name: 'razrabotka-sajtov',
 
         },
         {

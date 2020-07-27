@@ -22,7 +22,7 @@
             тем самым привлекая в ваш бизнес новых<br>
             клиентов.</h2>
 
-        <img src="../assets/images/webp/comp-two.webp" alt="pic">
+        <img src="../assets/images/comp-two.png" alt="pic">
 
     </div>
 </template>
