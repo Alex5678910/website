@@ -600,6 +600,49 @@
         width: 208px;
         height: 183px;
     }
+    /*========================1366================================*/
+    @media (max-width: 1366px) {
+        .grid {
+            margin-top: 5rem;
+            display: -ms-grid;
+            display: grid;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            color: aliceblue;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-grid-columns: 150px 196px 185px 208px 185px 196px 150px;
+            grid-template-columns: 145px 196px 180px 200px 180px 196px 145px;
+            -ms-grid-rows: (120px)[17];
+            grid-template-rows: repeat(17, 120px);
+            grid-template-areas:
+                    "nnnq a b c d e rrrq"
+                    "f f g g g h h"
+                    "nnne i i i i i rrre"
+                    "nnnr j k l m z rrrr"
+                    "o o p p p q q"
+                    "nnny er er er er er rrry"
+                    "nnnu tt t u v w rrru"
+                    "xx xx yy yy yy zz zz"
+                    "nnno ss ss ss ss ss rrro"
+                    "nnnp aa bb cc dd ee rrrp"
+                    "ff ff gg gg gg hh hh"
+                    "nnns ii ii ii ii ii rrrs"
+                    "nnnd jj kk ll mmm oo rrrd"
+                    "pp pp qq qq qq rr rr"
+                    "nnng uu uu uu uu uu rrrg"
+                    "nnnh bbb bbb ccc ddd ddd rrrh"
+                    "nnnj eee eee nnnn fff fff rrrj";
+        }
+        p{
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+        }
+    }
+
     /*====================================================max-width: 1025px========================================*/
     @media (max-width: 1025px) {
         .container{

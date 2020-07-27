@@ -120,7 +120,7 @@
             font-size: 161%;
             font-family: 'Montserrat Alternates', sans-serif;
             position: absolute;
-            left: 13.7%;
+            left: 14.7%;
             top: 60%;
             text-decoration: underline;
         }
