@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/',  // Right here
+    publicPath: '/',
     filename: 'build.js'
   },
   module: {
@@ -18,41 +18,11 @@ module.exports = {
           'vue-style-loader',
           'css-loader'
         ],
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          'vue-style-loader',
-          'css-loader',
-          'sass-loader'
-        ],
-      },
-      {
-        test: /\.sass$/,
-        use: [
-          'vue-style-loader',
-          'css-loader',
-          'sass-loader?indentedSyntax'
-        ],
-      },
-      {
+      },      {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
           loaders: {
-            // Since sass-loader (weirdly) has SCSS as its default parse mode, we map
-            // the "scss" and "sass" values for the lang attribute to the right configs here.
-            // other preprocessors should work out of the box, no loader config like this necessary.
-            'scss': [
-              'vue-style-loader',
-              'css-loader',
-              'sass-loader'
-            ],
-            'sass': [
-              'vue-style-loader',
-              'css-loader',
-              'sass-loader?indentedSyntax'
-            ]
           }
           // other vue-loader options go here
         }
@@ -97,6 +67,35 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
+    new HtmlWebpackPlugin({
+      template: 'index.html',
+      filename: path.resolve(__dirname, 'dist/index.html')
+    }),
+
+    new PrerenderSpaPlugin(
+        // Absolute path to compiled SPA
+        path.resolve(__dirname, './dist'),
+        // List of routes to prerender
+        [ '/', '/razrabotka-sajtov', '/mobile', '/crm', '/bots' ],
+
+        {
+          postProcessHtml: function (context) {
+            var titles = {
+              '/': 'My home page',
+              '/razrabotka-sajtov': 'My awesome about page',
+              '/mobile': 'My awesome about page',
+              '/crm': 'My awesome about page',
+              '/bots': 'My awesome about page',
+            }
+            return context.html.replace(
+                /<title>[^<]*<\/title>/i,
+                '<title>' + titles[context.route] + '</title>'
+            )
+          }
+        }
+
+    ),
+
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: true,
       compress: {
